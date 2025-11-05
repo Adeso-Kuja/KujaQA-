@@ -1,0 +1,6 @@
+selenium
+behave
+configparser
+webdriver-manager
+requests
+allure-behave

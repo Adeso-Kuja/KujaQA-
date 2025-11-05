@@ -1,0 +1,123 @@
+
+2025-11-04 08:33:00,114 [INFO] 🔧 Loading global configuration...
+2025-11-04 08:33:00,116 [INFO] 📂 Allure results directory ensured.
+2025-11-04 08:33:00,117 [INFO] ▶️ Starting feature: Registration feature validation
+2025-11-04 08:33:00,117 [INFO] 🚀 Starting browser driver...
+2025-11-04 08:33:00,117 [INFO] ====== WebDriver manager ======
+2025-11-04 08:33:00,303 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-04 08:33:00,772 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-04 08:33:01,062 [INFO] Driver [/Users/macbookpro/.wdm/drivers/chromedriver/mac64/142.0.7444.59/chromedriver-mac-arm64/chromedriver] found in cache
+2025-11-04 08:33:07,518 [INFO] Scenario 'Register as an Individual' finished with status: Status.error
+2025-11-04 08:33:08,609 [INFO] Scenario 'Register as an Organization' finished with status: Status.error
+2025-11-04 08:33:08,611 [INFO] ✅ Finished feature: Registration feature validation
+2025-11-04 08:33:08,612 [INFO] 🛑 Quitting browser driver...
+2025-11-04 08:33:08,685 [INFO] 🏁 Test run completed.
+2025-11-04 08:34:26,163 [INFO] 🔧 Loading global configuration...
+2025-11-04 08:34:26,165 [INFO] 📂 Allure results directory ensured.
+2025-11-04 08:34:26,166 [INFO] ▶️ Starting feature: Login as an individual (via email OTP)
+2025-11-04 08:34:26,166 [INFO] 🚀 Starting browser driver...
+2025-11-04 08:34:26,166 [INFO] ====== WebDriver manager ======
+2025-11-04 08:34:26,352 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-04 08:34:26,632 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-04 08:34:27,047 [INFO] Driver [/Users/macbookpro/.wdm/drivers/chromedriver/mac64/142.0.7444.59/chromedriver-mac-arm64/chromedriver] found in cache
+2025-11-04 08:34:41,090 [INFO] Scenario 'Login with OTP fetched from Mailpit' finished with status: Status.passed
+2025-11-04 08:34:41,090 [INFO] ✅ Finished feature: Login as an individual (via email OTP)
+2025-11-04 08:34:41,090 [INFO] 🛑 Quitting browser driver...
+2025-11-04 08:34:41,170 [INFO] 🏁 Test run completed.
+2025-11-04 08:55:22,451 [INFO] 🔧 Loading global configuration...
+2025-11-04 08:55:22,452 [INFO] 📂 Allure results directory ensured.
+2025-11-04 08:55:22,453 [INFO] ▶️ Starting feature: Forums feature validation
+2025-11-04 08:55:22,453 [INFO] 🚀 Starting browser driver...
+2025-11-04 08:55:22,454 [INFO] ====== WebDriver manager ======
+2025-11-04 08:55:22,635 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-04 08:55:22,942 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-04 08:55:23,233 [INFO] Driver [/Users/macbookpro/.wdm/drivers/chromedriver/mac64/142.0.7444.59/chromedriver-mac-arm64/chromedriver] found in cache
+2025-11-04 08:55:37,012 [INFO] Scenario 'Validate Forums dashboard elements' finished with status: Status.error
+2025-11-04 08:55:53,486 [INFO] Scenario 'Validate Create Forum form visibility' finished with status: Status.error
+2025-11-04 08:55:53,487 [INFO] ✅ Finished feature: Forums feature validation
+2025-11-04 08:55:53,487 [INFO] 🛑 Quitting browser driver...
+2025-11-04 08:55:53,574 [INFO] 🏁 Test run completed.
+2025-11-04 09:00:36,858 [INFO] 🔧 Loading global configuration...
+2025-11-04 09:00:36,859 [INFO] 📂 Allure results directory ensured.
+2025-11-04 09:00:36,861 [INFO] ▶️ Starting feature: Forums feature validation
+2025-11-04 09:00:36,861 [INFO] 🚀 Starting browser driver...
+2025-11-04 09:00:36,861 [INFO] ====== WebDriver manager ======
+2025-11-04 09:00:37,061 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-04 09:00:37,330 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-04 09:00:37,609 [INFO] Driver [/Users/macbookpro/.wdm/drivers/chromedriver/mac64/142.0.7444.59/chromedriver-mac-arm64/chromedriver] found in cache
+2025-11-04 09:00:50,249 [INFO] Scenario 'Validate Forums dashboard elements' finished with status: Status.error
+2025-11-04 09:00:56,483 [INFO] Scenario 'Validate Create Forum form visibility' finished with status: Status.error
+2025-11-04 09:00:56,484 [INFO] ✅ Finished feature: Forums feature validation
+2025-11-04 09:00:56,484 [INFO] 🛑 Quitting browser driver...
+2025-11-04 09:00:56,572 [INFO] 🏁 Test run completed.
+2025-11-04 09:51:44,552 [INFO] 🔧 Loading global configuration...
+2025-11-04 09:51:44,554 [INFO] 📂 Allure results directory ensured.
+2025-11-04 09:51:44,555 [INFO] ▶️ Starting feature: Forums feature validation
+2025-11-04 09:51:44,555 [INFO] 🚀 Starting browser driver...
+2025-11-04 09:51:44,555 [INFO] ====== WebDriver manager ======
+2025-11-04 09:51:44,738 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-04 09:51:45,044 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-04 09:51:45,323 [INFO] Driver [/Users/macbookpro/.wdm/drivers/chromedriver/mac64/142.0.7444.59/chromedriver-mac-arm64/chromedriver] found in cache
+2025-11-04 09:51:58,678 [INFO] Scenario 'Validate Forums dashboard elements' finished with status: Status.error
+2025-11-04 09:52:14,862 [INFO] Scenario 'Validate Create Forum form visibility' finished with status: Status.error
+2025-11-04 09:52:14,863 [INFO] ✅ Finished feature: Forums feature validation
+2025-11-04 09:52:14,863 [INFO] 🛑 Quitting browser driver...
+2025-11-04 09:52:14,954 [INFO] 🏁 Test run completed.
+2025-11-05 09:32:35,023 [INFO] 🔧 Loading global configuration...
+2025-11-05 09:32:35,025 [INFO] 📂 Allure results directory ensured.
+2025-11-05 09:32:35,026 [INFO] ▶️ Starting feature: Forums feature validation
+2025-11-05 09:32:35,026 [INFO] 🚀 Starting browser driver...
+2025-11-05 09:32:35,026 [INFO] ====== WebDriver manager ======
+2025-11-05 09:32:35,226 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-05 09:32:35,978 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-05 09:32:36,405 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-05 09:32:37,404 [INFO] WebDriver version 142.0.7444.59 selected
+2025-11-05 09:32:37,409 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.59/mac-arm64/chromedriver-mac-arm64.zip
+2025-11-05 09:32:37,409 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.59/mac-arm64/chromedriver-mac-arm64.zip
+2025-11-05 09:32:37,841 [INFO] Driver downloading response is 200
+2025-11-05 09:32:39,604 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-05 09:32:40,095 [INFO] Driver has been saved in cache [/Users/macbookpro/.wdm/drivers/chromedriver/mac64/142.0.7444.59]
+2025-11-05 09:32:53,469 [INFO] Scenario 'Validate Forums dashboard elements' finished with status: Status.error
+2025-11-05 09:33:08,683 [INFO] Scenario 'Validate Create Forum form visibility' finished with status: Status.error
+2025-11-05 09:33:08,690 [INFO] ✅ Finished feature: Forums feature validation
+2025-11-05 09:33:08,691 [INFO] 🛑 Quitting browser driver...
+2025-11-05 09:33:08,793 [INFO] 🏁 Test run completed.
+2025-11-05 09:36:24,591 [INFO] 🔧 Loading global configuration...
+2025-11-05 09:36:24,593 [INFO] 📂 Allure results directory ensured.
+2025-11-05 09:36:24,594 [INFO] ▶️ Starting feature: Forums feature validation
+2025-11-05 09:36:24,594 [INFO] 🚀 Starting browser driver...
+2025-11-05 09:36:24,594 [INFO] ====== WebDriver manager ======
+2025-11-05 09:36:24,771 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-05 09:36:25,062 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-05 09:36:25,350 [INFO] Driver [/Users/macbookpro/.wdm/drivers/chromedriver/mac64/142.0.7444.59/chromedriver-mac-arm64/chromedriver] found in cache
+2025-11-05 09:36:38,057 [INFO] Scenario 'Validate Forums dashboard elements' finished with status: Status.error
+2025-11-05 09:36:52,893 [INFO] Scenario 'Validate Create Forum form visibility' finished with status: Status.error
+2025-11-05 09:36:52,894 [INFO] ✅ Finished feature: Forums feature validation
+2025-11-05 09:36:52,894 [INFO] 🛑 Quitting browser driver...
+2025-11-05 09:36:52,986 [INFO] 🏁 Test run completed.
+2025-11-05 09:39:17,587 [INFO] 🔧 Loading global configuration...
+2025-11-05 09:39:17,588 [INFO] 📂 Allure results directory ensured.
+2025-11-05 09:39:17,589 [INFO] ▶️ Starting feature: Forums feature validation
+2025-11-05 09:39:17,589 [INFO] 🚀 Starting browser driver...
+2025-11-05 09:39:17,589 [INFO] ====== WebDriver manager ======
+2025-11-05 09:39:17,769 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-05 09:39:18,085 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-05 09:39:18,395 [INFO] Driver [/Users/macbookpro/.wdm/drivers/chromedriver/mac64/142.0.7444.59/chromedriver-mac-arm64/chromedriver] found in cache
+2025-11-05 09:39:30,883 [INFO] Scenario 'Validate Forums dashboard elements' finished with status: Status.error
+2025-11-05 09:39:45,969 [INFO] Scenario 'Validate Create Forum form visibility' finished with status: Status.error
+2025-11-05 09:39:45,972 [INFO] ✅ Finished feature: Forums feature validation
+2025-11-05 09:39:45,972 [INFO] 🛑 Quitting browser driver...
+2025-11-05 09:39:46,058 [INFO] 🏁 Test run completed.
+2025-11-05 09:45:48,259 [INFO] 🔧 Loading global configuration...
+2025-11-05 09:45:48,260 [INFO] 📂 Allure results directory ensured.
+2025-11-05 09:45:48,262 [INFO] ▶️ Starting feature: Forums feature validation
+2025-11-05 09:45:48,262 [INFO] 🚀 Starting browser driver...
+2025-11-05 09:45:48,262 [INFO] ====== WebDriver manager ======
+2025-11-05 09:45:48,445 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-05 09:45:48,738 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-05 09:45:49,031 [INFO] Driver [/Users/macbookpro/.wdm/drivers/chromedriver/mac64/142.0.7444.59/chromedriver-mac-arm64/chromedriver] found in cache
+2025-11-05 09:46:03,236 [INFO] Scenario 'Validate Forums dashboard elements' finished with status: Status.error
+2025-11-05 09:46:09,806 [INFO] Scenario 'Validate Create Forum form visibility' finished with status: Status.error
+2025-11-05 09:46:09,807 [INFO] ✅ Finished feature: Forums feature validation
+2025-11-05 09:46:09,808 [INFO] 🛑 Quitting browser driver...
+2025-11-05 09:46:09,900 [INFO] 🏁 Test run completed.
