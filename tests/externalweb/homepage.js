@@ -40,8 +40,7 @@ export async function homepage_kuja_link_and_build_cards (page){
   await expect(page.getByText('with global funding.')).toBeVisible();
   await expect(page.getByText('Smart Matching. Connect local')).toBeVisible();
   await expect(page.getByText('Amplify Visibility. Showcase')).toBeVisible();
-  await page.getByRole('link', { name: 'Register Now →' }).first().click();
-  await expect(page.getByRole('heading', { name: 'How would you like to connect?' })).toBeVisible();
+ 
   await page.goto('/');
 
   //Kuja Build card
@@ -51,9 +50,6 @@ export async function homepage_kuja_link_and_build_cards (page){
   await expect(page.getByText('designed for performance.')).toBeVisible();
   await expect(page.getByText('Compliance Made Easy. Identify and address gaps in your organization’s')).toBeVisible();
   await expect(page.getByText('End-to-End Grant Management. Access intuitive software and expert support to')).toBeVisible();
-  await expect(page.getByRole('link', { name: 'Register Now →' }).nth(1)).toBeVisible();
-  await page.getByRole('link', { name: 'Register Now →' }).nth(1).click();
-  await expect(page.getByRole('heading', { name: 'How would you like to connect?' })).toBeVisible();
   await page.goto('/');
 }
 

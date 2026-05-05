@@ -1,0 +1,44 @@
+import { expect } from '@playwright/test';
+
+export async function operationaloverview ( page ) {
+    await page.getByRole('link', { name: 'My Profile' }).click();
+ await expect(page.getByRole('heading', { name: 'Operational Overview' })).toBeVisible({ timeout: 30000 });
+  await expect(page.getByText('Registration status')).toBeVisible();
+  await expect(page.getByText('Active for')).toBeVisible();
+  await expect(page.getByText('Annual budget')).toBeVisible();
+  await expect(page.getByText('Annual income')).toBeVisible();
+  await expect(page.getByText('Countries of Registration')).toBeVisible();
+ // await expect(page.getByRole('link', { name: 'Download Registration Document' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Set Location Set Location' })).toBeVisible();
+  await expect(page.getByText('Locations')).toBeVisible();
+  await expect(page.locator('.gm-style > div > div:nth-child(2)')).toBeVisible();
+  await expect(page.getByText('Past audits')).toBeVisible();
+  await page.getByRole('button', { name: 'Edit Edit' }).nth(1).click();
+  await expect(page.getByRole('heading', { name: 'Registration status' })).toBeVisible();
+  await expect(page.getByText('The following operational')).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Cancel' })).toBeVisible();
+  await page.getByRole('button', { name: 'Proceed' }).click();
+  await expect(page.getByText('Started operations from')).toBeVisible();
+  await page.getByRole('textbox', { name: 'From' }).click();
+  //await page.getByLabel('March 12,').click();
+  await expect(page.getByText('Is your organization')).toBeVisible();
+  await expect(page.getByRole('radio', { name: 'Yes' })).toBeVisible();
+  await expect(page.locator('label').filter({ hasText: 'Yes' })).toBeVisible();
+  await expect(page.getByRole('radio', { name: 'No', exact: true })).toBeVisible();
+  await expect(page.locator('label').filter({ hasText: /^No$/ })).toBeVisible();
+  // await expect(page.getByRole('radio', { name: 'Prefers not to say' })).toBeVisible();
+  // await expect(page.getByText('Prefers not to say')).toBeVisible();
+  await expect(page.getByRole('checkbox', { name: 'Keep this information private' })).toBeVisible();
+  await expect(page.getByText('Keep this information private')).toBeVisible();
+  //await expect(page.getByText('Countries *')).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Cancel' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Proceed' })).toBeVisible();
+  await page.getByRole('button', { name: 'Proceed' }).click();
+  await expect(page.getByRole('heading', { name: 'Financial details' })).toBeVisible();
+  await expect(page.getByText('Annual budget *')).toBeVisible();
+  await expect(page.getByPlaceholder('0').first()).toBeVisible();
+  await expect(page.getByText('(Optional)')).toBeVisible();
+  //await expect(page.locator('.year-upload-card')).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Select years ' })).toBeVisible();
+  await page.getByRole('button', { name: 'Save' }).click();
+}
