@@ -1,12 +1,16 @@
 import dotenv from 'dotenv';
 import path from 'path';
 
+/**
+ * @param {string} targetEmail - The email address of the user logging in (e.g., testData.ingostaging)
+ */
+
 dotenv.config({ path: path.resolve(process.cwd(), '.env') });
 
 /**
  * Fetches the latest 6-digit OTP from Mailpit API.
  */
-export async function getLatestOTP() {
+export async function getLatestOTP(targetEmail) {
   const host = process.env.MAILPIT_HOST || 'dev.kuja.org:8025';
   const username = process.env.MAILPIT_USERNAME;
   const password = process.env.MAILPIT_PASSWORD;
@@ -22,6 +26,7 @@ export async function getLatestOTP() {
   const delayBetweenAttempts = 3000; // 3 seconds
 
   console.log(`Searching Mailpit (${host}) for OTP...`);
+  console.log(`Searching Mailpit for OTP sent to: ${targetEmail}`);
 
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
     try {
@@ -38,7 +43,12 @@ export async function getLatestOTP() {
       const messages = data.messages || [];
 
       // Find the most recent message from notifications@kuja.org
-      const latestMsg = messages.find(m => m.From.Address.includes('notifications@kuja.org'));
+     // const latestMsg = messages.find(m => m.From.Address.includes('notifications@kuja.org'));
+
+      const latestMsg = messages.find(m => 
+        m.From.Address.includes('notifications@kuja.org') && 
+        m.To.some(rec => rec.Address.toLowerCase() === targetEmail.toLowerCase())
+      );
 
       if (latestMsg) {
         // Fetch the full content of this specific message to get the OTP

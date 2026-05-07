@@ -59,6 +59,7 @@ export async function twitter_login ( page ) {
 
 
 export async function loginwith_email_login ( page ) {
+  const targetEmail = testData.individualstaging; 
   await page.goto('/partners/signin');
   await page.getByRole('link', { name: /Log in with your email/i }).click();
 
@@ -75,7 +76,7 @@ export async function loginwith_email_login ( page ) {
   await expect(page.getByRole('textbox', { name: 'Enter Email Address' })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Login' })).toBeVisible();
   await page.getByRole('textbox', { name: 'Enter Email Address' }).click();
-  await page.getByRole('textbox', { name: 'Enter Email Address' }).fill(testData.individualstaging);
+  await page.getByRole('textbox', { name: 'Enter Email Address' }).fill(targetEmail);
 // ingo_userEmail
   // ... (Step 1: Submit Email) ...
    await page.getByRole('button', { name: 'Login' }).click();
@@ -92,7 +93,7 @@ export async function loginwith_email_login ( page ) {
   //   // user_email: process.env.OUTLOOK_USER_EMAIL
 
   // });
-  const otp = await getLatestOTP();
+  const otp = await getLatestOTP(targetEmail);
 
    // 2. Safety check: Ensure we actually got a 6-digit code
 if (!otp || otp.length !== 6) {
