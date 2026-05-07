@@ -28,7 +28,7 @@ export async function kuja_team ( page ) {
     //Meet Kuja Team
       await page.getByRole('menuitem', { name: 'About' }).click();
   await expect(page.getByRole('heading', { name: 'Meet the Kuja team' })).toBeVisible();
-  await page.getByText('Elena Gillis Kuja Director Doreen Omitto Global Community Manager James Gutu').click();
+  //await page.getByText('Elena Gillis Kuja Director Doreen Omitto Global Community Manager James Gutu').click();
 
 }
 

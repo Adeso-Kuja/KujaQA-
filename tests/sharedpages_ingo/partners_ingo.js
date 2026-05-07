@@ -1,6 +1,5 @@
 import { test, expect } from '@playwright/test';
 
-
 export async function partners_ingo ( page ) {
   await page.waitForTimeout(3000);
   await page.getByRole('link', { name: 'My Profile' }).click({ timeout: 90000 });

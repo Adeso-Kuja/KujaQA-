@@ -15,14 +15,11 @@ import {notifications}from './sharedpages_cso/notifications.js';
 import {dm_chat}from './sharedpages_cso/dmchat.js';
 
 
-
 import {partners_ingo} from './sharedpages_ingo/partners_ingo.js';
 import {funding_opportunities} from './sharedpages_ingo/fundingopportunities.js';
 import {partnership_requirements} from './sharedpages_ingo/partnershiprequirements.js';
 import {funding_practices} from './sharedpages_ingo/fundingpractices.js';
 import {grants,grants_learn_more}from './sharedpages_cso/grants.js';
-
-
 
 
 test.beforeEach(async ({ page }) => {

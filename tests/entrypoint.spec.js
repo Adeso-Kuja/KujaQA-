@@ -144,9 +144,6 @@ test('loginwith_email_login', async ({ page }) => {
 
 
 //Organization Signup
-
-
-
 test('org_signup_landing', async ({ page }) => {
   test.setTimeout(60000);
   await org_signup_landing(page);

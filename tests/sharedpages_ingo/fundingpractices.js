@@ -1,3 +1,5 @@
+import { test, expect } from '@playwright/test';
+
 export async function funding_practices ( page ) {
 await page.getByRole('link', { name: 'My Profile' }).click({ timeout: 90000 });
 

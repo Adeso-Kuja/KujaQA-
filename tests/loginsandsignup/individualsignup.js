@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-
+test.use({ baseURL: 'https://kuja.org' });
 
 
 export async function individual_signup_landing ( page ) {
@@ -54,8 +54,9 @@ export async function individual_signup_email ( page ) {
   await expect(page.getByText('Already have an account')).toBeVisible();
   //await expect(page.getByRole('link', { name: 'Log in', exact: true })).toBeVisible();
   await expect(page.getByRole('link', { name: /Log in/i })).toBeVisible();
-
 }
+
+
 
 export async function individual_signup_email_fill ( page ) {
  //actual signup steps for personal account
@@ -80,6 +81,5 @@ export async function individual_signup_email_fill ( page ) {
   await expect(page.getByRole('button', { name: 'Verify my account' })).toBeVisible();
   await expect(page.getByRole('link', { name: 'Resend the code' })).toBeVisible();
   await expect(page.getByRole('link', { name: 'Send to a different email' })).toBeVisible();
-
-  
 }
+

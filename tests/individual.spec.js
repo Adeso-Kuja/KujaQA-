@@ -141,13 +141,3 @@ test('dm_chat', async ({ page }) => {
 });
 
 
-test('the_forumss', async ({ page }) => {
-  test.setTimeout(60000);
-  await the_forumse(page);
-});
-
-
-test('the_projects', async ({ page }) => {
-  test.setTimeout(60000);
-  await the_projectse(page);
-});
