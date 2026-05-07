@@ -18,7 +18,7 @@ export default defineConfig({
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 2,
-  workers: process.env.CI ? 1 : undefined,
+  workers: process.env.CI ? 4 : undefined,
   reporter: 'html',
 
   expect: {
@@ -28,8 +28,8 @@ export default defineConfig({
   use: {
     baseURL: 'https://staging.link.kuja.org/',
     trace: 'on-first-retry',
-    screenshot: 'only-on-failure',
-    video: 'on-first-retry',
+   // screenshot: 'only-on-failure',
+   // video: 'on-first-retry',
     actionTimeout: 20000, 
 
     // storageState: 'basicauth.json',
