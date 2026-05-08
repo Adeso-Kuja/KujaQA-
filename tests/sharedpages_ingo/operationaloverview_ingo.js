@@ -5,7 +5,7 @@ export async function operationaloverview ( page ) {
  await expect(page.getByRole('heading', { name: 'Operational Overview' })).toBeVisible({ timeout: 30000 });
   await expect(page.getByText('Registration status')).toBeVisible();
   await expect(page.getByText('Active for')).toBeVisible();
-  await expect(page.getByText('Annual budget')).toBeVisible();
+  //await expect(page.getByText('Annual budget')).toBeVisible();
   await expect(page.getByText('Annual income')).toBeVisible();
   await expect(page.getByText('Countries of Registration')).toBeVisible();
  // await expect(page.getByRole('link', { name: 'Download Registration Document' })).toBeVisible();

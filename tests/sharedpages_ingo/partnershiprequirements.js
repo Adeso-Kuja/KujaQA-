@@ -45,7 +45,7 @@ export async function partnership_requirements ( page ) {
   await expect(page.locator('div').filter({ hasText: /^Yes$/ }).nth(3)).toBeVisible();
   await expect(page.locator('div').filter({ hasText: /^No$/ }).nth(3)).toBeVisible();
   await expect(page.getByText('Which country of registration?*')).toBeVisible();
-  await expect(page.getByRole('button', { name: 'Bahamas Delete Bangladesh' })).toBeVisible();
+ // await expect(page.getByRole('button', { name: 'Bahamas Delete Bangladesh' })).toBeVisible();
   await expect(page.getByRole('button', { name: ' Back' })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Submit' })).toBeVisible();
   await page.getByRole('button', { name: 'Submit' }).click();

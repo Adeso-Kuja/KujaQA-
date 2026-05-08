@@ -52,7 +52,8 @@ export async function userprofile_banners ( page ) {
   await expect(page.getByRole('checkbox', { name: 'Indigenous-led' })).toBeVisible();
   //await expect(page.getByText('Indigenous-led')).toBeVisible();
 
-  dialog = page.getByRole('dialog');
+ // dialog = page.getByRole('dialog');
+  const dialog = page.getByRole('dialog');
 
 // Check if the text exists without failing the test
 if (await dialog.getByText('Indigenous-led').isVisible()) {

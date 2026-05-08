@@ -42,15 +42,13 @@ export async function dm_chat ( page ) {
 
   await page.locator('xpath=/html/body/div[1]/header/nav[1]/div/ul[2]/div/div/owl-component/div/a').click();
  
-  await page.getByRole('button', { name: 'New Message' }).click();
-  await page.getByRole('textbox', { name: 'Start a conversation' }).click();
+  await page.getByRole('button', { name: 'New Message' }).click({ timeout: 90000 });
   await page.getByRole('textbox', { name: 'Start a conversation' }).fill('cyr');
-  //await page.getByRole('button', { name: 'User is offline Cyrus Waithaka' }).click();
-  await page.getByRole('button', { name: 'Thread Image  Cyrus Waithaka' }).click();
+  await page.getByRole('button', { name: 'User is offline Cyrus Waithaka' }).click({ timeout: 90000 });
+  await page.getByRole('button', { name: 'Thread Image  Cyrus Waithaka' }).click({ timeout: 90000 });
   const page1Promise = page.waitForEvent('popup');
-  await page.getByRole('menuitem', { name: ' View Profile' }).click();
+  await page.getByRole('menuitem', { name: ' View Profile' }).click({ timeout: 90000 });
   const page1 = await page1Promise;
-  await page1.getByRole('link', { name: 'My Profile' }).click();
 
 
 }

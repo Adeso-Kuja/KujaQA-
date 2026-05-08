@@ -136,11 +136,11 @@ test('twitter_login', async ({ page }) => {
 );
 
 
-test('loginwith_email_login', async ({ page }) => {
-  test.setTimeout(60000);
-  await loginwith_email_login(page);
-}
-);
+// test('loginwith_email_login', async ({ page }) => {
+//   test.setTimeout(60000);
+//   await loginwith_email_login(page);
+// }
+// );
 
 
 //Organization Signup

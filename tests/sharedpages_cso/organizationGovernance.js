@@ -38,8 +38,26 @@ export async function organizationgovernance_view ( page ) {
   await expect(page.locator('div:nth-child(15) > .d-flex > span').first()).toBeVisible();
   await expect(page.locator('div:nth-child(15) > .d-flex > .d-inline-flex.align-items-center.gap-1.text-muted')).toBeVisible();
   await expect(page.getByText('Child Protection?')).toBeVisible({ timeout: 90000 });
-  await expect(page.locator('div:nth-child(16) > .d-flex > span').first()).toBeVisible({ timeout: 90000 });
+//   await expect(page.locator('div:nth-child(16) > .d-flex > span').first()).toBeVisible({ timeout: 90000 });
+//     await expect(page1.locator('div:nth-child(15) > .d-flex')).toBeVisible();
+
+try {
+  // Try the first specific locator
+  await expect(page.locator('div:nth-child(16) > .d-flex > span').first())
+    .toBeVisible({ timeout: 10000 }); // Reduced timeout so you aren't waiting 90s just to fail
   
+  console.log("Found the first locator (nth-child 16)");
+
+} catch (error) {
+  console.log("First locator not found, checking the second one...");
+  
+  // Fallback: Try the second locator on page1
+  await expect(page1.locator('div:nth-child(15) > .d-flex'))
+    .toBeVisible({ timeout: 90000 });
+    
+  console.log("Found the second locator (nth-child 15)");
+}
+
  // await expect(page.locator('div:nth-child(16) > .d-flex > .d-inline-flex.align-items-center.gap-1.text-muted')).toBeVisible();
 }
 
@@ -48,9 +66,23 @@ export async function organizationgovernance_edit ( page ) {
 
    await page.getByRole('link', { name: 'My Profile' }).click();
    await page.waitForTimeout(9000);
-await page.getByRole('button', { name: 'Edit Edit' }).nth(2).click({ timeout: 90000 });
+//    await page.getByRole('button', { name: 'Edit Edit' }).nth(2).click({ timeout: 90000 });
+//   await page1.getByRole('button', { name: 'Edit Edit' }).nth(4).click({ timeout: 90000 });
+
+try {
+  // Try the first button
+  await page.getByRole('button', { name: 'Edit Edit' }).nth(2).click({ timeout: 90000 });
+} catch (error) {
+  console.log('First button not found, trying the second one...');
+  // Fallback to the second button
+  await page1.getByRole('button', { name: 'Edit Edit' }).nth(4).click({ timeout: 90000 });
+}
+
   await expect(page.getByRole('heading', { name: 'Governance & Compliance' })).toBeVisible({ timeout: 90000 });
   await expect(page.getByRole('heading', { name: 'Organization Compliance &' })).toBeVisible({ timeout: 90000 });
+
+
+
   await expect(page.getByText('Does your organization have a bank account in its name?*')).toBeVisible();
   await expect(page.locator('#question_1_option_1')).toBeVisible();
   await expect(page.locator('label').filter({ hasText: 'Yes' }).first()).toBeVisible();

@@ -8,7 +8,7 @@ import {boardandteams}from './sharedpages_cso/boardandteams.js';
 import {partnersandnetworks}from './sharedpages_cso/partnersandnetworks.js';
 import {unlockfullpotential}from './sharedpages_cso/unlockfullpotential.js';
 import {workwedo}from './sharedpages_cso/workwedo.js';
-import {operationaloverview}from './sharedpages_cso/operationaloverview.js';
+import {operationaloverview}from './sharedpages_ingo/operationaloverview_ingo.js';
 import {organizationgovernance_view}from './sharedpages_cso/organizationGovernance.js';
 import {organizationgovernance_edit}from './sharedpages_cso/organizationGovernance.js';
 import {notifications}from './sharedpages_cso/notifications.js';
@@ -80,9 +80,6 @@ test('funding_practices', async ({ page }) => {
  });
 
  
-
-
-
 
 test('resource_library', async ({ page }) => {
   test.setTimeout(90000);
