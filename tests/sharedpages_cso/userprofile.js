@@ -63,7 +63,7 @@ if (await dialog.getByText('Indigenous-led').isVisible()) {
     console.log("Element not present, skipping optional check.");
 }
 
-  const dialog = page.getByRole('dialog'); 
+ // const dialog = page.getByRole('dialog'); 
   await page.getByRole('checkbox', { name: 'LGBTQ+ - led' }).check();
   await expect(dialog.getByRole('checkbox', { name: 'LGBTQ+ - led' })).toBeChecked();
 
