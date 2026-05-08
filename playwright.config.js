@@ -111,4 +111,10 @@ export default defineConfig({
       dependencies: ['setup-network'],
     },
   ],
+  exports = {
+  reporter: [
+    ['html'],
+    ['list'],
+    ['allure-playwright', { outputFolder: 'allure-results' }]
+  ]}
 });
