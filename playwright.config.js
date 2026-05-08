@@ -19,7 +19,13 @@ export default defineConfig({
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 2,
   workers: process.env.CI ? 4 : undefined,
-  reporter: 'html',
+  //reporter: 'html',
+
+  reporter: [
+    ['list'],
+    ['html', { open: 'never' }],
+    ['allure-playwright', { outputFolder: 'allure-results' }]
+  ],
 
   expect: {
     timeout: 20000, 
@@ -111,10 +117,5 @@ export default defineConfig({
       dependencies: ['setup-network'],
     },
   ],
-  exports = {
-  reporter: [
-    ['html'],
-    ['list'],
-    ['allure-playwright', { outputFolder: 'allure-results' }]
-  ]}
+ 
 });
