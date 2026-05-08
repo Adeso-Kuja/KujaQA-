@@ -17,8 +17,16 @@ jobs:
       run: npm ci
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
+    # - name: Run Playwright tests
+    #   run: npx playwright test
     - name: Run Playwright tests
-      run: npx playwright test
+      run: npx playwright test --reporter=html,list,github
+      
+    - name: Add summary
+      if: always()
+      run: |
+        echo "### Test Results 🚀" >> $GITHUB_STEP_SUMMARY
+        echo "Detailed report is available in the artifacts below." >> $GITHUB_STEP_SUMMARY
       env:
         MAILPIT_USERNAME: ${{ secrets.MAILPIT_USERNAME }}
         MAILPIT_PASSWORD: ${{ secrets.MAILPIT_PASSWORD }}
@@ -28,5 +36,5 @@ jobs:
       with:
         name: playwright-report
         path: playwright-report/
-        retention-days: 30
+        retention-days: 2
       
