@@ -1,0 +1,98 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - link "Skip to Content" [ref=e3] [cursor=pointer]:
+    - /url: "#wrap"
+  - banner [ref=e4]:
+    - navigation "Main" [ref=e5]:
+      - generic [ref=e6]:
+        - link "Logo of Kuja Staging" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Logo of Kuja Staging" [ref=e8]:
+            - img "Kuja Staging" [ref=e9]
+        - menu [ref=e10]:
+          - menuitem "Home" [ref=e11] [cursor=pointer]
+          - menuitem "Kujalink" [ref=e12] [cursor=pointer]
+          - menuitem "About" [ref=e13] [cursor=pointer]
+        - list [ref=e14]:
+          - text: 
+          - listitem [ref=e15]:
+            - button "English (US)" [expanded] [ref=e17] [cursor=pointer]
+          - listitem [ref=e18]:
+            - link "Log In" [ref=e19] [cursor=pointer]:
+              - /url: /partners/signin
+    - text: 
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - link " Back" [ref=e25] [cursor=pointer]:
+        - /url: /partners/signin
+        - generic [ref=e26]: 
+        - text: Back
+      - generic [ref=e27]:
+        - heading "Log In" [level=3] [ref=e28]
+        - paragraph [ref=e29]: Welcome back. Please use your registered email address to login.
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: Enter Email Address
+            - textbox "Enter Email Address" [active] [ref=e35]:
+              - /placeholder: name@example.com
+              - text: walterochieng6950d@gmail.com
+          - button " Login" [disabled]:
+            - generic: 
+            - text: Login
+          - heading "Don't have an account Register" [level=6] [ref=e36]:
+            - text: Don't have an account
+            - link "Register" [ref=e37] [cursor=pointer]:
+              - /url: /register
+  - contentinfo [ref=e38]:
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - img "Kuja Logo" [ref=e47]
+          - generic [ref=e48]:
+            - link "Website" [ref=e49] [cursor=pointer]:
+              - /url: /
+            - link "Grants" [ref=e50] [cursor=pointer]:
+              - /url: /grants
+            - link "Events" [ref=e51] [cursor=pointer]:
+              - /url: /events
+            - link "Blogs" [ref=e52] [cursor=pointer]:
+              - /url: /blog
+            - link "Courses" [ref=e53] [cursor=pointer]:
+              - /url: /slides/all
+            - link "Forums" [ref=e54] [cursor=pointer]:
+              - /url: /communities
+            - link "About" [ref=e55] [cursor=pointer]:
+              - /url: /about-us
+            - link "Privacy Policy" [ref=e56] [cursor=pointer]:
+              - /url: /privacy
+            - link "Code of Conduct" [ref=e57] [cursor=pointer]:
+              - /url: /conduct
+        - generic [ref=e58]:
+          - paragraph [ref=e59]: We love feedback! Reach out to us on WhatsApp
+          - generic [ref=e60]:
+            - generic [ref=e61]: "+254708091854"
+            - link [ref=e62] [cursor=pointer]:
+              - /url: https://wa.me/254708091854
+              - img [ref=e63]
+          - paragraph [ref=e64]: Follow us on socials
+          - generic [ref=e65]:
+            - link [ref=e66] [cursor=pointer]:
+              - /url: https://www.facebook.com/share/1DsKQ5WoDq/
+              - img [ref=e67]
+            - link [ref=e68] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/kuja-platform/
+              - img [ref=e69]
+            - link [ref=e70] [cursor=pointer]:
+              - /url: https://x.com/Kuja_Platform
+              - img [ref=e71]
+            - link [ref=e72] [cursor=pointer]:
+              - /url: https://www.youtube.com/@Kuja_Platform
+              - img [ref=e73]
+            - link [ref=e74] [cursor=pointer]:
+              - /url: https://wa.me/254708091854
+              - img [ref=e75]
+      - separator [ref=e76]
+      - generic [ref=e77]: 2026 Kuja. All rights reserved.
+```
