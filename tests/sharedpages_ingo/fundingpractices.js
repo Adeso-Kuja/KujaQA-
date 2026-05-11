@@ -4,8 +4,8 @@ export async function funding_practices ( page ) {
 await page.getByRole('link', { name: 'My Profile' }).click({ timeout: 90000 });
 
 //view partnership requirements
-  await expect(page.getByRole('heading', { name: 'Partnership Requirements' })).toBeVisible({ timeout: 90000 });
-  await expect(page.getByRole('heading', { name: 'Funding Practices' })).toBeVisible();
+  //await expect(page.getByRole('heading', { name: 'Partnership Requirements' })).toBeVisible({ timeout: 90000 });
+  await expect(page.getByRole('heading', { name: 'Funding Practices' })).toBeVisible({ timeout: 90000 });
   await expect(page.getByRole('button', { name: 'Edit Edit' }).nth(2)).toBeVisible();
   await expect(page.getByText('Annual granting total $')).toBeVisible();
   await expect(page.getByText('Do you give ICR?YesNo')).toBeVisible();

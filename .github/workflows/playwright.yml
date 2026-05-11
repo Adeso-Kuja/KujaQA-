@@ -34,16 +34,19 @@ jobs:
       run: npx playwright install --with-deps
       
     - name: Run Playwright tests
-      # We use your config's reporters but ensure allure-results are generated
-      run: npx playwright test
+      # We force the reporter here just to be absolutely sure
+      run: npx playwright test --reporter=line,allure-playwright
       continue-on-error: true
+
+    - name: Check for results folder
+      run: ls -R allure-results || echo "Folder not found!"
 
     - name: Load Allure history
       uses: actions/checkout@v4
       if: always()
       with:
         ref: gh-pages
-        path: gh-pages
+        path: gh-pages-temp # Changed path to avoid conflicts
         
     - name: Build Allure Report
       uses: simple-elf/allure-report-action@master
@@ -51,6 +54,7 @@ jobs:
       with:
         allure_results: allure-results
         allure_history: allure-history
+        gh_pages: gh-pages-temp # Tell the action where the history was checked out
         keep_reports: 20
 
     - name: Deploy Allure Report to GitHub Pages
@@ -58,10 +62,8 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        # Deploy 'allure-history' because simple-elf puts the full report there
-        publish_dir: ./allure-history
+        publish_dir: allure-history
         publish_branch: gh-pages
-        # Crucial: prevents GitHub from ignoring folders starting with underscores
         enable_jekyll: false 
 
     - name: Add summary
@@ -76,89 +78,3 @@ jobs:
         name: playwright-report
         path: playwright-report/
         retention-days: 2
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# name: Playwright Tests
-# on:
-#   push:
-#     branches: [ main, master, kujalink_plw ]
-#   pull_request:
-#     branches: [ main, master, kujalink_plw ]
-
-# jobs:
-#   test:
-#     timeout-minutes: 60
-#     runs-on: ubuntu-latest
-    
-#     env:
-#       MAILPIT_USERNAME: ${{ secrets.MAILPIT_USERNAME }}
-#       MAILPIT_PASSWORD: ${{ secrets.MAILPIT_PASSWORD }}
-#       BASE_URL: https://staging.link.kuja.org/
-
-#     steps:
-#     - uses: actions/checkout@v4
-#     - uses: actions/setup-node@v4
-#       with:
-#         node-version: lts/*
-        
-#     - name: Install dependencies
-#       run: npm ci
-      
-#     - name: Install Playwright Browsers
-#       run: npx playwright install --with-deps
-      
-#     - name: Run Playwright tests
-#       # Added --reporter=allure-playwright
-#       run: npx playwright test --reporter=html,list,github,allure-playwright
-      
-#     - name: Get Allure history
-#       # This allows Allure to show trend charts over time
-#       continue-on-error: true
-#       uses: actions/checkout@v4
-#       with:
-#         ref: gh-pages
-#         path: gh-pages-dir
-
-#     - name: Allure Report Action
-#       uses: simple-elf/allure-report-action@master
-#       if: always()
-#       with:
-#         allure_results: allure-results
-#         allure_history: allure-history
-#         keep_reports: 20
-
-#     - name: Deploy Allure Report to GitHub Pages
-#       if: always()
-#       uses: peaceiris/actions-gh-pages@v3
-#       with:
-#         github_token: ${{ secrets.GITHUB_TOKEN }}
-#         publish_dir: allure-history
-#         publish_branch: gh-pages
-
-#     - name: Add summary
-#       if: always()
-#       run: |
-#         echo "### Test Results 🚀" >> $GITHUB_STEP_SUMMARY
-#         echo "✅ Allure Report: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/" >> $GITHUB_STEP_SUMMARY
-
-#     - uses: actions/upload-artifact@v4
-#       if: ${{ !cancelled() }}
-#       with:
-#         name: playwright-report
-#         path: playwright-report/
-#         retention-days: 2
-
-
-
