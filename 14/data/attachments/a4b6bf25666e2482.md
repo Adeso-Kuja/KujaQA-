@@ -1,0 +1,174 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to Content" [ref=e3] [cursor=pointer]:
+      - /url: "#wrap"
+    - banner [ref=e4]:
+      - navigation "Main" [ref=e5]:
+        - generic [ref=e6]:
+          - link "Logo of Kuja Staging" [ref=e7] [cursor=pointer]:
+            - /url: /
+            - img "Logo of Kuja Staging" [ref=e8]:
+              - img "Kuja Staging" [ref=e9]
+          - menu [ref=e10]:
+            - listitem [ref=e11]:
+              - link "My Profile" [ref=e12] [cursor=pointer]:
+                - /url: /partners/walter-odhiambo-1577
+            - listitem [ref=e13]:
+              - link "Userfeed" [ref=e14] [cursor=pointer]:
+                - /url: /my/feed
+            - menuitem "Kujalink" [ref=e15] [cursor=pointer]
+          - list [ref=e16]:
+            - text: 
+            - menu [ref=e17]:
+              - link "Notifications 2" [ref=e18] [cursor=pointer]:
+                - /url: /notifications
+                - img "Notifications" [ref=e19]
+                - generic [ref=e20]: "2"
+              - menu [ref=e21]:
+                - generic [ref=e24]:
+                  - img "Messages" [ref=e25]
+                  - generic [ref=e26]: "1"
+            - listitem [ref=e27]:
+              - button "English (US)" [expanded] [ref=e29] [cursor=pointer]
+            - listitem [ref=e30]:
+              - button "Walter Network" [ref=e31] [cursor=pointer]
+              - text:     
+      - text: 
+    - main [ref=e32]:
+      - generic [ref=e36]:
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - img "Banner" [ref=e40]
+            - img "Profile Picture" [ref=e42]
+          - generic [ref=e43]:
+            - heading "Walter Odhiambo" [level=1] [ref=e45]
+            - generic [ref=e46]:
+              - generic [ref=e47]:
+                - generic [ref=e48]: 
+                - generic [ref=e49]: Andorra
+              - generic [ref=e51]:
+                - generic [ref=e52]: 
+                - generic [ref=e53]: walterochieng6950f@gmail.com
+        - generic [ref=e54]:
+          - complementary [ref=e55]:
+            - generic [ref=e56]:
+              - generic [ref=e57]:
+                - generic [ref=e59]:
+                  - heading "Bio" [level=3] [ref=e61]
+                  - paragraph [ref=e62]: test bio
+                - separator [ref=e63]
+                - generic [ref=e65]:
+                  - heading "Socials" [level=3] [ref=e67]
+                  - paragraph
+              - generic [ref=e70]:
+                - heading "Focus Areas" [level=3] [ref=e72]
+                - paragraph [ref=e73]:
+                  - generic [ref=e75]: Animal Welfare
+              - generic [ref=e76]:
+                - generic [ref=e78]:
+                  - heading "Skills" [level=3] [ref=e80]
+                  - paragraph [ref=e81]:
+                    - generic [ref=e83]: Share your skills
+                - separator [ref=e84]
+                - generic [ref=e86]:
+                  - heading "Languages" [level=3] [ref=e88]
+                  - paragraph [ref=e89]:
+                    - generic [ref=e91]: Share your language
+              - generic [ref=e92]:
+                - generic [ref=e94]:
+                  - heading "Role" [level=3] [ref=e96]
+                  - paragraph [ref=e97]: Share your role
+                - separator [ref=e98]
+                - generic [ref=e100]:
+                  - heading "Affiliated organizations" [level=3] [ref=e102]
+                  - paragraph [ref=e103]:
+                    - generic [ref=e105]: Share organizations you are affiliated to
+          - generic [ref=e107]:
+            - generic [ref=e109]:
+              - generic [ref=e110]:
+                - button "Slide 1" [ref=e111] [cursor=pointer]
+                - button "Slide 2" [ref=e112] [cursor=pointer]
+                - button "Slide 3" [ref=e113] [cursor=pointer]
+                - button "Slide 4" [ref=e114] [cursor=pointer]
+              - img "Kuja Link" [ref=e117]
+              - button "Previous" [ref=e118] [cursor=pointer]:
+                - generic [ref=e120]: Previous
+              - button "Next" [ref=e121] [cursor=pointer]:
+                - generic [ref=e123]: Next
+            - generic [ref=e125]:
+              - generic [ref=e126]:
+                - button "Slide 1" [ref=e127] [cursor=pointer]
+                - button "Slide 2" [ref=e128] [cursor=pointer]
+                - button "Slide 3" [ref=e129] [cursor=pointer]
+                - button "Slide 4" [ref=e130] [cursor=pointer]
+              - img "Kuja Link" [ref=e133]
+              - button "Previous" [ref=e134] [cursor=pointer]:
+                - generic [ref=e136]: Previous
+              - button "Next" [ref=e137] [cursor=pointer]:
+                - generic [ref=e139]: Next
+    - contentinfo [ref=e140]:
+      - generic [ref=e146]:
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - img "Kuja Logo" [ref=e149]
+            - generic [ref=e150]:
+              - link "Website" [ref=e151] [cursor=pointer]:
+                - /url: /
+              - link "Grants" [ref=e152] [cursor=pointer]:
+                - /url: /grants
+              - link "Events" [ref=e153] [cursor=pointer]:
+                - /url: /events
+              - link "Blogs" [ref=e154] [cursor=pointer]:
+                - /url: /blog
+              - link "Courses" [ref=e155] [cursor=pointer]:
+                - /url: /slides/all
+              - link "Forums" [ref=e156] [cursor=pointer]:
+                - /url: /communities
+              - link "About" [ref=e157] [cursor=pointer]:
+                - /url: /about-us
+              - link "Privacy Policy" [ref=e158] [cursor=pointer]:
+                - /url: /privacy
+              - link "Code of Conduct" [ref=e159] [cursor=pointer]:
+                - /url: /conduct
+          - generic [ref=e160]:
+            - paragraph [ref=e161]: We love feedback! Reach out to us on WhatsApp
+            - generic [ref=e162]:
+              - generic [ref=e163]: "+254708091854"
+              - link [ref=e164] [cursor=pointer]:
+                - /url: https://wa.me/254708091854
+                - img [ref=e165]
+            - paragraph [ref=e166]: Follow us on socials
+            - generic [ref=e167]:
+              - link [ref=e168] [cursor=pointer]:
+                - /url: https://www.facebook.com/share/1DsKQ5WoDq/
+                - img [ref=e169]
+              - link [ref=e170] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/kuja-platform/
+                - img [ref=e171]
+              - link [ref=e172] [cursor=pointer]:
+                - /url: https://x.com/Kuja_Platform
+                - img [ref=e173]
+              - link [ref=e174] [cursor=pointer]:
+                - /url: https://www.youtube.com/@Kuja_Platform
+                - img [ref=e175]
+              - link [ref=e176] [cursor=pointer]:
+                - /url: https://wa.me/254708091854
+                - img [ref=e177]
+        - separator [ref=e178]
+        - generic [ref=e179]: 2026 Kuja. All rights reserved.
+    - generic:
+      - dialog:
+        - generic [ref=e183]:
+          - paragraph [ref=e185]:
+            - text: We use cookies to provide you a better user experience on this website.
+            - link "Cookie Policy" [active] [ref=e186] [cursor=pointer]:
+              - /url: /cookie-policy
+          - generic [ref=e187]:
+            - button "Only essentials" [ref=e188] [cursor=pointer]
+            - button "I agree" [ref=e189] [cursor=pointer]
+  - button "" [ref=e190] [cursor=pointer]:
+    - generic [ref=e191]: 
+```
