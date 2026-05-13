@@ -1,0 +1,178 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - link "Skip to Content" [ref=e3] [cursor=pointer]:
+    - /url: "#wrap"
+  - banner [ref=e4]:
+    - navigation "Main" [ref=e5]:
+      - generic [ref=e6]:
+        - link "Logo of Kuja Staging" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Logo of Kuja Staging" [ref=e8]:
+            - img "Kuja Staging" [ref=e9]
+        - menu [ref=e10]:
+          - listitem [ref=e11]:
+            - link "My Profile" [ref=e12] [cursor=pointer]:
+              - /url: /partners/walter-odhiambo-1577
+          - listitem [ref=e13]:
+            - link "Userfeed" [ref=e14] [cursor=pointer]:
+              - /url: /my/feed
+          - menuitem " Kujalink":
+            - generic: 
+            - text: Kujalink
+        - list [ref=e15]:
+          - text: 
+          - menu [ref=e16]:
+            - link "Notifications" [ref=e17] [cursor=pointer]:
+              - /url: /notifications
+              - img "Notifications" [ref=e18]
+            - menu
+          - listitem [ref=e19]:
+            - button "English (US)" [expanded] [ref=e21] [cursor=pointer]
+          - listitem [ref=e22]:
+            - button "Walter CSO" [ref=e23] [cursor=pointer]
+            - text:     
+    - text: 
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - img [ref=e34]
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e40]:
+            - img "Kuja Link Logo" [ref=e42]
+            - generic [ref=e43]: Matching local brilliance with global funding.
+            - list [ref=e44]:
+              - listitem [ref=e45]: Smart Matching. Connect local organizations with the right funding opportunities — and link donors with high-impact, investment-ready partners.
+              - listitem [ref=e46]: Amplify Visibility. Showcase projects and success stories to attract capital, partners, and growth opportunities.
+            - link "See more →" [ref=e47] [cursor=pointer]:
+              - /url: /kuja-link
+            - img [ref=e48]
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - img "Kuja Build Logo" [ref=e53]
+              - link "Coming in 2026" [ref=e54] [cursor=pointer]:
+                - /url: /contactus
+            - generic [ref=e55]: Built for changemakers, designed for performance.
+            - list [ref=e56]:
+              - listitem [ref=e57]: Compliance Made Easy. Identify and address gaps in your organization’s operational and compliance readiness with our smart diagnostic tool.
+              - listitem [ref=e58]: End-to-End Grant Management. Access intuitive software and expert support to streamline operational management and donor reporting.
+            - link "See more →" [ref=e59] [cursor=pointer]:
+              - /url: /kuja-build
+            - img [ref=e60]
+        - paragraph [ref=e65]:
+          - text: Kuja listens to you. We continuously evolve and
+          - text: expand our solutions to meet demand.
+        - generic [ref=e66]:
+          - paragraph [ref=e67]: Kuja's Value
+          - paragraph [ref=e68]:
+            - text: Join a platform where local organisations connect with global
+            - text: resources to grow, partner, and lead change.
+          - generic [ref=e69]:
+            - generic [ref=e72]:
+              - img [ref=e73]
+              - paragraph [ref=e74]: Amplify your impact
+              - text: Build a powerful presence for your organisation or network. Showcase your mission, projects, and partnerships to a global community of changemakers and investors.
+            - generic [ref=e77]:
+              - img [ref=e78]
+              - paragraph [ref=e79]: Connect globally
+              - text: Direct message individuals and organisations on Kuja to build partnerships, co-create projects, and exchange ideas securely.
+            - generic [ref=e82]:
+              - img [ref=e83]
+              - paragraph [ref=e84]: Be a thought-leader
+              - text: Join conversations that matter. Participate in discussion forums to exchange insights and strengthen your network.
+            - generic [ref=e87]:
+              - img [ref=e88]
+              - paragraph [ref=e89]: Search for funding
+              - text: Discover and explore best-fit funding opportunities matched to your profile and goals.
+            - generic [ref=e92]:
+              - img [ref=e93]
+              - paragraph [ref=e94]: Find Grantees
+              - text: Search and discover local organisations to partner with and expand your impact.
+            - generic [ref=e97]:
+              - img [ref=e98]
+              - paragraph [ref=e99]: Build your skills
+              - text: Access courses, templates, and guides to strengthen your operations, programs, and fundraising - all in one convenient hub.
+            - generic [ref=e102]:
+              - img [ref=e103]
+              - paragraph [ref=e104]: Simplify your finances
+              - text: Manage your organisation's budgets, monitor spending, and produce donor-ready reports with ease and accuracy.
+            - generic [ref=e107]:
+              - img [ref=e108]
+              - paragraph [ref=e109]: Build funding pipelines
+              - text: Track funding prospects and donor communications to ensure strong relationships that result in funding.
+            - generic [ref=e112]:
+              - img [ref=e113]
+              - paragraph [ref=e114]: Track project progress
+              - text: Monitor milestones, activities, and impact through the grant cycle using a project management tool designed for social impact organisations.
+        - generic [ref=e117]:
+          - paragraph [ref=e119]: Subscribe to our newsletter
+          - paragraph [ref=e121]: Follow us on socials
+          - generic [ref=e122]:
+            - link [ref=e124] [cursor=pointer]:
+              - /url: https://www.facebook.com/share/1DsKQ5WoDq/
+              - img [ref=e125]
+            - link [ref=e127] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/kuja-platform/
+              - img [ref=e128]
+            - link [ref=e130] [cursor=pointer]:
+              - /url: https://x.com/Kuja_Platform
+              - img [ref=e131]
+            - link [ref=e133] [cursor=pointer]:
+              - /url: https://www.youtube.com/@Kuja_Platform
+              - img [ref=e134]
+        - generic [ref=e138]:
+          - paragraph [ref=e140]: Partners
+          - paragraph [ref=e142]: At Kuja, collaboration is at the heart of everything we do. Together with our partners, we’re building stronger connections between civil society, funders, and changemakers across the Global South and beyond.
+          - paragraph [ref=e144]: Want to get featured on our website? Reach out to communications@kuja.org.
+  - contentinfo [ref=e145]:
+    - generic [ref=e151]:
+      - generic [ref=e152]:
+        - generic [ref=e153]:
+          - img "Kuja Logo" [ref=e154]
+          - generic [ref=e155]:
+            - link "Website" [ref=e156] [cursor=pointer]:
+              - /url: /
+            - link "Grants" [ref=e157] [cursor=pointer]:
+              - /url: /grants
+            - link "Events" [ref=e158] [cursor=pointer]:
+              - /url: /events
+            - link "Blogs" [ref=e159] [cursor=pointer]:
+              - /url: /blog
+            - link "Courses" [ref=e160] [cursor=pointer]:
+              - /url: /slides/all
+            - link "Forums" [ref=e161] [cursor=pointer]:
+              - /url: /communities
+            - link "About" [ref=e162] [cursor=pointer]:
+              - /url: /about-us
+            - link "Privacy Policy" [ref=e163] [cursor=pointer]:
+              - /url: /privacy
+            - link "Code of Conduct" [ref=e164] [cursor=pointer]:
+              - /url: /conduct
+        - generic [ref=e165]:
+          - paragraph [ref=e166]: We love feedback! Reach out to us on WhatsApp
+          - generic [ref=e167]:
+            - generic [ref=e168]: "+254708091854"
+            - link [ref=e169] [cursor=pointer]:
+              - /url: https://wa.me/254708091854
+              - img [ref=e170]
+          - paragraph [ref=e171]: Follow us on socials
+          - generic [ref=e172]:
+            - link [ref=e173] [cursor=pointer]:
+              - /url: https://www.facebook.com/share/1DsKQ5WoDq/
+              - img [ref=e174]
+            - link [ref=e175] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/kuja-platform/
+              - img [ref=e176]
+            - link [ref=e177] [cursor=pointer]:
+              - /url: https://x.com/Kuja_Platform
+              - img [ref=e178]
+            - link [ref=e179] [cursor=pointer]:
+              - /url: https://www.youtube.com/@Kuja_Platform
+              - img [ref=e180]
+            - link [ref=e181] [cursor=pointer]:
+              - /url: https://wa.me/254708091854
+              - img [ref=e182]
+      - separator [ref=e183]
+      - generic [ref=e184]: 2026 Kuja. All rights reserved.
+```
