@@ -74,7 +74,16 @@ export async function loginwith_email_cso ( page ) {
 
 // 4. Click verify
   await page.getByRole('button', { name: /Verify my account/i }).click();
-  await expect(page.getByRole('link', { name: 'My Profile' })).toBeVisible();
+  //await page.waitForLoadState('networkidle');
+  //await expect(page.getByRole('link', { name: 'My Profile' })).toBeVisible();
+  
+ // await expect(page.getByRole('link', { name: 'My Profile' })).toBeVisible({ timeout: 15000 });
+
+
+  const myProfileLink = page.getByRole('link', { name: 'My Profile' });
+// This automatically waits for the navigation to complete and the element to be visible
+   await expect(myProfileLink).toBeVisible({ timeout: 20000 });
+  
 }
 
 

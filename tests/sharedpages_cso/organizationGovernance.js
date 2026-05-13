@@ -50,11 +50,9 @@ try {
 
 } catch (error) {
   console.log("First locator not found, checking the second one...");
-  
   // Fallback: Try the second locator on page1
-  await expect(page1.locator('div:nth-child(15) > .d-flex'))
+  await expect(page.locator('div:nth-child(15) > .d-flex'))
     .toBeVisible({ timeout: 90000 });
-    
   console.log("Found the second locator (nth-child 15)");
 }
 

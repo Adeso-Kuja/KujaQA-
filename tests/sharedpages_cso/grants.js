@@ -27,7 +27,10 @@ await page.getByRole('menuitem', { name: 'Kujalink' }).click({ timeout: 30000 })
   await page.getByRole('button', { name: 'Allowed Languages ' }).click();
   await page.getByText('English (US)').nth(5).click();
   await expect(page.getByRole('heading', { name: 'Deadline ' })).toBeVisible({ timeout: 90000 });
-  await page.getByRole('textbox').click({ timeout: 90000 });
+  //await page.getByRole('textbox').click({ timeout: 90000 });
+  await page.locator('#deadline').getByRole('textbox').click();
+
+  
   await page.locator('owl-component').filter({ hasText: 'Grant feedExplore the' }).click();
   await expect(page.getByRole('heading', { name: 'Grant funding amount (USD) ' })).toBeVisible();
   await expect(page.getByRole('radio', { name: 'Any amount (0)' })).toBeVisible();

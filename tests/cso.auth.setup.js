@@ -10,7 +10,7 @@ setup('authenticate with email OTP for cso', async ({ page }) => {
     // 2. Ensure we are fully logged in before saving
    // await page.waitForURL('/org_profile'); 
     await page.waitForURL('/my/feed'); 
-
+    await page.waitForLoadState('domcontentloaded');
 
     // 3. Save the storage state (cookies, localStorage, etc.)
     await page.context().storageState({ path: authFilecso });

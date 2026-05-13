@@ -6,7 +6,12 @@ export async function userfeeds ( page ) {
 
     //Left Menu-profile barner
  //await page.locator('.uf-profile-avatar').click();
-   await expect(page.locator('.uf-profile-avatar')).toBeVisible({ timeout: 30000 });
+ //  await expect(page.locator('.uf-profile-avatar')).toBeVisible({ timeout: 30000 });
+   //div[@class='uf-profile-avatar-placeholder']
+   const avatar = page.locator('//div[@class="uf-profile-avatar-placeholder"]');
+  // This will wait until the element is visible
+   await expect(avatar).toBeVisible({ timeout: 30000 });
+
   await expect(page.locator('.uf-promo-slide')).toBeVisible();
 
  

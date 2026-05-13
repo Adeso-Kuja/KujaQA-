@@ -38,24 +38,6 @@ test('userprofile_about_who_are_we', async ({ page }) => {
 });
 
 
-// test('the_forumss', async ({ page }) => {
-//   test.setTimeout(60000);
-//   await the_forumse(page);
-// });
-
-
-// test('the_projects', async ({ page }) => {
-//   test.setTimeout(60000);
-//   await the_projectse(page);
-// });
-
-// test('members_page', async ({ page }) => {
-//   test.setTimeout(60000);
-//   await members(page);
-// });
-
-
-
  test('partners_ingo', async ({ page }) => {
    test.setTimeout(60000);
    await partners_ingo(page);
@@ -137,7 +119,7 @@ test('organizationgovernance_view', async ({ page }) => {
 test('organizationgovernance_edit', async ({ page }) => {
   test.setTimeout(60000);
   await organizationgovernance_edit(page);
-});
+ });
 
 
 test('notifications', async ({ page }) => {
@@ -162,3 +144,10 @@ test('grants_learn_more', async ({ page }) => {
    await dm_chat(page);
  });
  
+
+
+
+ test('the_forumss', async ({ page }) => {
+  test.setTimeout(60000);
+  await the_forumse(page);
+});

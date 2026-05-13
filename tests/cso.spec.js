@@ -57,7 +57,7 @@ test('resource_library', async ({ page }) => {
 test('profileSettings', async ({ page }) => {
   test.setTimeout(60000);
   const walterData = {
-        userName: 'Walter CSO',
+        userName: 'walter test cso2',
         location: 'Algeria'
     };
  // await profileSettings(page);

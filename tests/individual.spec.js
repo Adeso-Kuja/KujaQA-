@@ -22,6 +22,7 @@ test('profile_bio', async ({ page }) => {
   await profile_bio(page);
 });
 
+
 test('profile_social', async ({ page }) => {
   test.setTimeout(60000);
   await profile_social(page);
@@ -90,6 +91,38 @@ test('userfeeds', async ({ page }) => {
 });
 
 
+
+test('notifications', async ({ page }) => {
+  test.setTimeout(60000);
+  await notifications(page);
+});
+
+test('dm_chat', async ({ page }) => {
+  test.setTimeout(60000);
+  await dm_chat(page);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//-------------------------------------
 // test('boardandteams', async ({ page }) => {
 //   test.setTimeout(60000);
 //   await boardandteams(page);
@@ -128,16 +161,3 @@ test('userfeeds', async ({ page }) => {
 //   test.setTimeout(60000);
 //   await organizationgovernance_edit(page);
 // });
-
-
-test('notifications', async ({ page }) => {
-  test.setTimeout(60000);
-  await notifications(page);
-});
-
-test('dm_chat', async ({ page }) => {
-  test.setTimeout(60000);
-  await dm_chat(page);
-});
-
-

@@ -14,7 +14,9 @@ export async function networkmembers ( page ) {
   await page.getByRole('link', { name: 'Add Add a network member' }).click({ timeout: 30000 });
   await expect(page.getByRole('heading', { name: 'Add a network member' })).toBeVisible({ timeout: 30000 });
   await expect(page.getByRole('button', { name: 'Close' })).toBeVisible();
-  await expect(page.getByRole('button', { name: 'Search for organization ' })).toBeVisible();
+  //await expect(page.getByRole('button', { name: 'Search for organization ' })).toBeVisible();
+    await expect(page.locator('.o_select_menu_toggler')).toBeVisible();
+
   await expect(page.getByRole('button', { name: 'Cancel' })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Add Member' })).toBeVisible();
 

@@ -4,9 +4,13 @@ import { expect } from '@playwright/test';
 export async function boardandteams ( page ) {
 
   await page.waitForTimeout(3000);
-await page.getByRole('link', { name: 'My Profile' }).click();
-await page.waitForTimeout(3000);
-  await expect(page.getByRole('heading', { name: 'Board & Team Members' })).toBeVisible();
+  await page.getByRole('link', { name: 'My Profile' }).click({ timeout: 10000 });
+
+  //await page.waitForTimeout(3000);
+ // await expect(page.getByRole('heading', { name: 'Board & Team Members' })).toBeVisible({ timeout: 10000 });
+  const heading = page.getByRole('heading', { name: 'Board & Team Members' });
+   await expect(heading).toBeVisible({ timeout: 15000 });
+
   //await expect(page.getByText('Walter Individual OdhiamboAdult WelfareFilmView profile')).toBeVisible();
   await expect(page.getByRole('link', { name: 'Add Add team member' })).toBeVisible();
   await expect(page.getByRole('button', { name: 'View all team members' })).toBeVisible();

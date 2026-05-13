@@ -11,7 +11,7 @@ export const testData = {
 
      //staging
      individualstaging:'walterochieng6950f@gmail.com',
-     csostaging:'walterochieng6950cso@gmail.com',
+     csostaging:'walterochieng6950cso2@gmail.com',
      networkstaging:'walterochieng6950ne@gmail.com',
      ingostaging:'walterochieng6950d@gmail.com'
     // you can add other variables here
