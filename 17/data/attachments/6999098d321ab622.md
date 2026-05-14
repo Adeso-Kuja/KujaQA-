@@ -1,0 +1,100 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - link "Skip to Content" [ref=e3] [cursor=pointer]:
+    - /url: "#wrap"
+  - banner [ref=e4]:
+    - navigation "Main" [ref=e5]:
+      - generic [ref=e6]:
+        - link "Logo of Kuja Staging" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Logo of Kuja Staging" [ref=e8]:
+            - img "Kuja Staging" [ref=e9]
+        - menu [ref=e10]:
+          - menuitem "Home" [ref=e11] [cursor=pointer]
+          - menuitem "Kujalink" [ref=e12] [cursor=pointer]
+          - menuitem "About" [ref=e13] [cursor=pointer]
+        - list [ref=e14]:
+          - text: 
+          - listitem [ref=e15]:
+            - button "English (US)" [expanded] [ref=e17] [cursor=pointer]
+          - listitem [ref=e18]:
+            - link "Log In" [ref=e19] [cursor=pointer]:
+              - /url: /partners/signin
+    - text: 
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - link " Back" [ref=e25] [cursor=pointer]:
+        - /url: /registration/organisation/step_1
+        - generic [ref=e26]: 
+        - text: Back
+      - generic [ref=e27]:
+        - heading "Let's verify your account" [level=3] [ref=e28]
+        - paragraph [ref=e29]: We sent a verification code to the email w***0d@gmail.com.
+        - paragraph [ref=e30]: If you don't see it, please check your Spam folder.
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - textbox [ref=e33]
+            - textbox [ref=e34]
+            - textbox [ref=e35]
+            - textbox [ref=e36]
+            - textbox [ref=e37]
+            - textbox [ref=e38]
+          - generic [ref=e39]:
+            - button "Verify my account" [ref=e40] [cursor=pointer]
+            - link "Resend the code" [ref=e41] [cursor=pointer]:
+              - /url: "#"
+            - link "Send to a different email" [ref=e42] [cursor=pointer]:
+              - /url: /registration/organisation/step_1
+  - contentinfo [ref=e43]:
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - img "Kuja Logo" [ref=e52]
+          - generic [ref=e53]:
+            - link "Website" [ref=e54] [cursor=pointer]:
+              - /url: /
+            - link "Grants" [ref=e55] [cursor=pointer]:
+              - /url: /grants
+            - link "Events" [ref=e56] [cursor=pointer]:
+              - /url: /events
+            - link "Blogs" [ref=e57] [cursor=pointer]:
+              - /url: /blog
+            - link "Courses" [ref=e58] [cursor=pointer]:
+              - /url: /slides/all
+            - link "Forums" [ref=e59] [cursor=pointer]:
+              - /url: /communities
+            - link "About" [ref=e60] [cursor=pointer]:
+              - /url: /about-us
+            - link "Privacy Policy" [ref=e61] [cursor=pointer]:
+              - /url: /privacy
+            - link "Code of Conduct" [ref=e62] [cursor=pointer]:
+              - /url: /conduct
+        - generic [ref=e63]:
+          - paragraph [ref=e64]: We love feedback! Reach out to us on WhatsApp
+          - generic [ref=e65]:
+            - generic [ref=e66]: "+254708091854"
+            - link [ref=e67] [cursor=pointer]:
+              - /url: https://wa.me/254708091854
+              - img [ref=e68]
+          - paragraph [ref=e69]: Follow us on socials
+          - generic [ref=e70]:
+            - link [ref=e71] [cursor=pointer]:
+              - /url: https://www.facebook.com/share/1DsKQ5WoDq/
+              - img [ref=e72]
+            - link [ref=e73] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/kuja-platform/
+              - img [ref=e74]
+            - link [ref=e75] [cursor=pointer]:
+              - /url: https://x.com/Kuja_Platform
+              - img [ref=e76]
+            - link [ref=e77] [cursor=pointer]:
+              - /url: https://www.youtube.com/@Kuja_Platform
+              - img [ref=e78]
+            - link [ref=e79] [cursor=pointer]:
+              - /url: https://wa.me/254708091854
+              - img [ref=e80]
+      - separator [ref=e81]
+      - generic [ref=e82]: 2026 Kuja. All rights reserved.
+```

@@ -1,0 +1,3 @@
+Searching Mailpit (dev.kuja.org:8025) for OTP...
+Searching Mailpit for OTP sent to: walterochieng6950cso2@gmail.com
+OTP found: 466748 (Attempt 1)
