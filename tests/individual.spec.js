@@ -23,50 +23,50 @@ test('profile_bio', async ({ page }) => {
 });
 
 
-// test('profile_social', async ({ page }) => {
-//   test.setTimeout(60000);
-//   await profile_social(page);
-// });
+test('profile_social', async ({ page }) => {
+  test.setTimeout(60000);
+  await profile_social(page);
+});
 
 
-// test('profile_focus_areas', async ({ page }) => {
-//   test.setTimeout(60000);
-//   await profile_focus_areas(page);
-// });
+test('profile_focus_areas', async ({ page }) => {
+  test.setTimeout(60000);
+  await profile_focus_areas(page);
+});
 
-// test('profile_Skills', async ({ page }) => {
-//   test.setTimeout(60000);
-//   await profile_Skills(page);
+test('profile_Skills', async ({ page }) => {
+  test.setTimeout(60000);
+  await profile_Skills(page);
 
-// });
+});
 
-// test('profile_Languages', async ({ page }) => {
-//   test.setTimeout(60000);
-//   await profile_Languages(page);
-// });
-
-
-// test('profile_Roles', async ({ page }) => {
-//   test.setTimeout(60000);
-//   await profile_Roles(page);
-// });
-
-// test('profile_Affiliated', async ({ page }) => {
-//   test.setTimeout(60000);
-//   await profile_Affiliated(page);
-// });
-
-// test('profile_burners', async ({ page }) => {
-//   test.setTimeout(60000);
-//   await profile_burners(page);
-// });
+test('profile_Languages', async ({ page }) => {
+  test.setTimeout(60000);
+  await profile_Languages(page);
+});
 
 
+test('profile_Roles', async ({ page }) => {
+  test.setTimeout(60000);
+  await profile_Roles(page);
+});
 
-// test('members_page', async ({ page }) => {
-//   test.setTimeout(60000);
-//   await members(page);
-// });
+test('profile_Affiliated', async ({ page }) => {
+  test.setTimeout(60000);
+  await profile_Affiliated(page);
+});
+
+test('profile_burners', async ({ page }) => {
+  test.setTimeout(60000);
+  await profile_burners(page);
+});
+
+
+
+test('members_page', async ({ page }) => {
+  test.setTimeout(60000);
+  await members(page);
+});
 
 
 test('resource_library', async ({ page }) => {
@@ -75,32 +75,32 @@ test('resource_library', async ({ page }) => {
 });
 
 
-// test('profileSettings', async ({ page }) => {
-//   test.setTimeout(60000);
-//   const walterData = {
-//         userName: 'Walter Odhiambo',
-//         location: 'Algeria'
-//     };
-//   await profileSettings(page, walterData);
+test('profileSettings', async ({ page }) => {
+  test.setTimeout(60000);
+  const walterData = {
+        userName: 'Walter Odhiambo',
+        location: 'Algeria'
+    };
+  await profileSettings(page, walterData);
 
-// });
+});
 
-// test('userfeeds', async ({ page }) => {
-//   test.setTimeout(60000);
-//   await userfeeds(page);
-// });
+test('userfeeds', async ({ page }) => {
+  test.setTimeout(60000);
+  await userfeeds(page);
+});
 
 
 
-// test('notifications', async ({ page }) => {
-//   test.setTimeout(60000);
-//   await notifications(page);
-// });
+test('notifications', async ({ page }) => {
+  test.setTimeout(60000);
+  await notifications(page);
+});
 
-// test('dm_chat', async ({ page }) => {
-//   test.setTimeout(60000);
-//   await dm_chat(page);
-// });
+test('dm_chat', async ({ page }) => {
+  test.setTimeout(60000);
+  await dm_chat(page);
+});
 
 
 
