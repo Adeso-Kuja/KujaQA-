@@ -13,11 +13,11 @@ import { test, expect } from '@playwright/test';
   await expect(page.getByRole('button', { name: 'Type: All ' })).toBeVisible();
   await page.getByRole('button', { name: 'Type: All ' }).click();
   await page.getByRole('menuitem', { name: 'Blog' }).click();
-  await page.waitForTimeout(9000);
+  await page.waitForTimeout(4000);
   await page.getByRole('button', { name: 'Creator: All ' }).click();
-  await page.waitForTimeout(9000);
+  await page.waitForTimeout(4000);
   //await page.getByText('International Non-Profit').click();
-  await page.waitForTimeout(9000);
+
   await page.getByRole('button', { name: 'Focus areas ' }).click();
   await page.getByText('Adult Welfare').nth(1).click();
   await page.getByRole('button', { name: 'Sort: Newest to Oldest ' }).click();
@@ -30,4 +30,10 @@ await page.getByRole('link', { name: 'Delete' }).first().click();
   await page.getByRole('button', { name: 'Most popular (most clicks)  ' }).click();
   //await page.getByText('View document hereAccess').click();
   //await expect(page.getByText('View document hereAccess')).toBeVisible();
+
+
+  await page.getByRole('link', { name: 'Logo View tool kit here ' }).first().click();
+  await expect(page.getByTitle('Courses')).toBeVisible();
+  await expect(page.getByRole('searchbox', { name: 'Search courses' })).toBeVisible();
+ 
 }

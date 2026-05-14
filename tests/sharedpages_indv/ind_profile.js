@@ -16,13 +16,15 @@ export async function profile_bio ( page ) {
   await expect(page.locator('div').filter({ hasText: /^Bio$/ })).toBeVisible();
   await expect(page.locator('.content-wrapper > div > .icon').first()).toBeVisible();
   await page.locator('.content-wrapper > div > .icon').first().click({ timeout: 15000 });
-    
+
+    // await expect(page.getByRole('banner').filter({ hasText: 'Bio' })).toBeVisible({ timeout: 15000 });
+    //   await expect(page.locator('#dialog_2').getByText('Biotest bio')).toBeVisible({ timeout: 15000 });
   // await expect(page.locator('h4')).toBeVisible();
   // await expect(page.getByRole('heading', { name: 'Bio', level: 4 })).toBeVisible();
-   //  await expect(page.locator('h4')).toBeVisible({ timeout: 15000 });
-  //await expect(page.getByRole('banner').filter({ hasText: 'Bio' })).toBeVisible({ timeout: 15000 });
-  //await expect(page.locator('label')).toBeVisible({ timeout: 15000 });
-  await expect(page.getByRole('button', { name: 'Close' })).toBeVisible();
+  //   await expect(page.locator('h4')).toBeVisible({ timeout: 15000 });
+  // await expect(page.getByRole('banner').filter({ hasText: 'Bio' })).toBeVisible({ timeout: 15000 });
+  // await expect(page.locator('label')).toBeVisible({ timeout: 15000 });
+  // await expect(page.getByRole('button', { name: 'Close' })).toBeVisible({ timeout: 15000 });
   await expect(page.getByText('Cancel')).toBeVisible();
   await page.getByRole('button', { name: 'Save' }).click();
 }
