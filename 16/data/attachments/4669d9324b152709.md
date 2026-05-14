@@ -1,0 +1,319 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to Content" [ref=e3] [cursor=pointer]:
+      - /url: "#wrap"
+    - banner [ref=e4]:
+      - navigation "Main" [ref=e5]:
+        - generic [ref=e6]:
+          - link "Logo of Kuja Staging" [ref=e7] [cursor=pointer]:
+            - /url: /
+            - img "Logo of Kuja Staging" [ref=e8]:
+              - img "Kuja Staging" [ref=e9]
+          - menu [ref=e10]:
+            - listitem [ref=e11]:
+              - link "My Profile" [ref=e12] [cursor=pointer]:
+                - /url: /partners/walter-odhiambo-1577
+            - listitem [ref=e13]:
+              - link "Userfeed" [ref=e14] [cursor=pointer]:
+                - /url: /my/feed
+            - menuitem "Kujalink" [ref=e15] [cursor=pointer]
+          - list [ref=e16]:
+            - text: 
+            - menu [ref=e17]:
+              - link "Notifications" [ref=e18] [cursor=pointer]:
+                - /url: /notifications
+                - img "Notifications" [ref=e19]
+              - menu [ref=e20]:
+                - generic [ref=e23]:
+                  - img "Messages" [ref=e24]
+                  - generic [ref=e25]: "1"
+            - listitem [ref=e26]:
+              - button "English (US)" [expanded] [ref=e28] [cursor=pointer]
+            - listitem [ref=e29]:
+              - button "Walter CSO" [ref=e30] [cursor=pointer]
+              - text:     
+      - text: 
+    - main [ref=e31]:
+      - generic [ref=e34]:
+        - generic [ref=e37]:
+          - heading "Resource Library" [level=2] [ref=e38]
+          - paragraph [ref=e41]: The resource center offers expert-led courses tailored to empower individuals, CSOs, INGOs, and NGOs with essential skills and knowledge. Whether you're looking to build capacity, enhance expertise, or stay informed on key industry trends, our courses provide the tools and insights needed to drive meaningful impact and achieve.
+        - search [ref=e46]:
+          - searchbox "Search by title" [ref=e47]
+          - button "Search" [ref=e48] [cursor=pointer]:
+            - generic [ref=e49]: 
+        - generic [ref=e50]:
+          - generic [ref=e52]:
+            - button "Blog Delete " [ref=e56] [cursor=pointer]:
+              - generic "Blog" [ref=e58]:
+                - generic [ref=e59]: Blog
+                - link "Delete" [ref=e60]:
+                  - /url: "#"
+                  - generic [ref=e61]: 
+              - generic [ref=e63]: 
+            - 'button "Creator: All " [expanded] [active] [ref=e67] [cursor=pointer]':
+              - generic [ref=e68]: "Creator: All"
+              - generic [ref=e70]: 
+            - button "Focus areas " [ref=e74] [cursor=pointer]:
+              - generic [ref=e75]: Focus areas
+              - generic [ref=e77]: 
+            - 'button "Project: All " [ref=e81] [cursor=pointer]':
+              - generic [ref=e82]: "Project: All"
+              - generic [ref=e84]: 
+            - 'button "Sort: Newest to Oldest " [ref=e88] [cursor=pointer]':
+              - generic [ref=e89]: "Sort: Newest to Oldest"
+              - generic [ref=e91]: 
+          - generic [ref=e92]:
+            - generic [ref=e93]:
+              - generic [ref=e95]:
+                - link "Logo Read blog here " [ref=e97] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e99]:
+                    - img "Logo" [ref=e100]
+                    - text: Read blog here
+                    - generic [ref=e101]: 
+                - 'heading "Why We Said Yes to Kuja: A Story from the DRC" [level=5] [ref=e102]'
+                - paragraph
+              - generic [ref=e106]:
+                - link "Logo Read blog here " [ref=e108] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e110]:
+                    - img "Logo" [ref=e111]
+                    - text: Read blog here
+                    - generic [ref=e112]: 
+                - 'heading "A New Era for Local Organisations: What’s Coming with KujaLink and KujaBuild" [level=5] [ref=e113]'
+                - paragraph
+              - generic [ref=e117]:
+                - link "Logo Read blog here " [ref=e119] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e121]:
+                    - img "Logo" [ref=e122]
+                    - text: Read blog here
+                    - generic [ref=e123]: 
+                - heading "Beyond the Platform.. Kuja’s Vision for a Connected Civil Society" [level=5] [ref=e124]
+                - paragraph
+              - generic [ref=e128]:
+                - link "Logo Read blog here " [ref=e130] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e132]:
+                    - img "Logo" [ref=e133]
+                    - text: Read blog here
+                    - generic [ref=e134]: 
+                - 'heading "Cleaning with Dignity: How Grassroots Action Led the Way on World Cleanup Day" [level=5] [ref=e135]'
+                - paragraph
+              - generic [ref=e139]:
+                - link "Logo Read blog here " [ref=e141] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e143]:
+                    - img "Logo" [ref=e144]
+                    - text: Read blog here
+                    - generic [ref=e145]: 
+                - 'heading "Hope for Our Future: Making Communities a “Pa ka pa la”" [level=5] [ref=e146]'
+                - paragraph
+              - generic [ref=e150]:
+                - link "Logo Read blog here " [ref=e152] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e154]:
+                    - img "Logo" [ref=e155]
+                    - text: Read blog here
+                    - generic [ref=e156]: 
+                - heading "Community-led Responses to Colonialism and Racism in Philanthropy in Latin America" [level=5] [ref=e157]
+                - paragraph
+              - generic [ref=e161]:
+                - link "Logo Read blog here " [ref=e163] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e165]:
+                    - img "Logo" [ref=e166]
+                    - text: Read blog here
+                    - generic [ref=e167]: 
+                - 'heading "Beyond Aid: Debt Justice and Reparations for True Development" [level=5] [ref=e168]'
+                - paragraph
+              - generic [ref=e172]:
+                - link "Logo Read blog here " [ref=e174] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e176]:
+                    - img "Logo" [ref=e177]
+                    - text: Read blog here
+                    - generic [ref=e178]: 
+                - heading "Youth-Led Organizations’ Insights for a Failing Aid System" [level=5] [ref=e179]
+                - paragraph
+              - generic [ref=e183]:
+                - link "Logo Read blog here " [ref=e185] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e187]:
+                    - img "Logo" [ref=e188]
+                    - text: Read blog here
+                    - generic [ref=e189]: 
+                - 'heading "Refugee-led organizations facing multiple crises: what needs to change?" [level=5] [ref=e190]'
+                - paragraph
+              - generic [ref=e194]:
+                - link "Logo Read blog here " [ref=e196] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e198]:
+                    - img "Logo" [ref=e199]
+                    - text: Read blog here
+                    - generic [ref=e200]: 
+                - heading "The Problems and the Beauty of Community-Led Development" [level=5] [ref=e201]
+                - paragraph
+              - generic [ref=e205]:
+                - link "Logo Read blog here " [ref=e207] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e209]:
+                    - img "Logo" [ref=e210]
+                    - text: Read blog here
+                    - generic [ref=e211]: 
+                - 'heading "Navigating Change: What we learned from Kuja''s first webinar" [level=5] [ref=e212]'
+                - paragraph
+              - generic [ref=e216]:
+                - link "Logo Read blog here " [ref=e218] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e220]:
+                    - img "Logo" [ref=e221]
+                    - text: Read blog here
+                    - generic [ref=e222]: 
+                - heading "International Aid Is Crumbling—Some think this is an opportunity" [level=5] [ref=e223]
+                - paragraph
+              - generic [ref=e227]:
+                - link "Logo Read blog here " [ref=e229] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e231]:
+                    - img "Logo" [ref=e232]
+                    - text: Read blog here
+                    - generic [ref=e233]: 
+                - heading "Where Does Aid Money Really Go? And What Happens When It Stops?" [level=5] [ref=e234]
+                - paragraph
+              - generic [ref=e238]:
+                - link "Logo Read blog here " [ref=e240] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e242]:
+                    - img "Logo" [ref=e243]
+                    - text: Read blog here
+                    - generic [ref=e244]: 
+                - 'heading "Kuja: A Platform for Change – Reflecting on Our Launch" [level=5] [ref=e245]'
+                - paragraph
+              - generic [ref=e249]:
+                - link "Logo Read blog here " [ref=e251] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e253]:
+                    - img "Logo" [ref=e254]
+                    - text: Read blog here
+                    - generic [ref=e255]: 
+                - heading "Localisation is More Important Than Ever. Platforms Like Kuja Can Help." [level=5] [ref=e256]
+                - paragraph
+              - generic [ref=e260]:
+                - link "Logo Read blog here " [ref=e262] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e264]:
+                    - img "Logo" [ref=e265]
+                    - text: Read blog here
+                    - generic [ref=e266]: 
+                - heading "Common Mistakes to Avoid When Applying for Funding" [level=5] [ref=e267]
+                - paragraph
+            - list [ref=e271]:
+              - listitem [ref=e272]:
+                - generic:
+                  - img "Previous": 
+              - listitem [ref=e273]:
+                - generic [ref=e274] [cursor=pointer]: "1"
+              - listitem [ref=e275]:
+                - generic [ref=e276] [cursor=pointer]: "2"
+              - listitem [ref=e277]:
+                - img "Next" [ref=e279] [cursor=pointer]: 
+    - contentinfo [ref=e280]:
+      - generic [ref=e286]:
+        - generic [ref=e287]:
+          - generic [ref=e288]:
+            - img "Kuja Logo" [ref=e289]
+            - generic [ref=e290]:
+              - link "Website" [ref=e291] [cursor=pointer]:
+                - /url: /
+              - link "Grants" [ref=e292] [cursor=pointer]:
+                - /url: /grants
+              - link "Events" [ref=e293] [cursor=pointer]:
+                - /url: /events
+              - link "Blogs" [ref=e294] [cursor=pointer]:
+                - /url: /blog
+              - link "Courses" [ref=e295] [cursor=pointer]:
+                - /url: /slides/all
+              - link "Forums" [ref=e296] [cursor=pointer]:
+                - /url: /communities
+              - link "About" [ref=e297] [cursor=pointer]:
+                - /url: /about-us
+              - link "Privacy Policy" [ref=e298] [cursor=pointer]:
+                - /url: /privacy
+              - link "Code of Conduct" [ref=e299] [cursor=pointer]:
+                - /url: /conduct
+          - generic [ref=e300]:
+            - paragraph [ref=e301]: We love feedback! Reach out to us on WhatsApp
+            - generic [ref=e302]:
+              - generic [ref=e303]: "+254708091854"
+              - link [ref=e304] [cursor=pointer]:
+                - /url: https://wa.me/254708091854
+                - img [ref=e305]
+            - paragraph [ref=e306]: Follow us on socials
+            - generic [ref=e307]:
+              - link [ref=e308] [cursor=pointer]:
+                - /url: https://www.facebook.com/share/1DsKQ5WoDq/
+                - img [ref=e309]
+              - link [ref=e310] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/kuja-platform/
+                - img [ref=e311]
+              - link [ref=e312] [cursor=pointer]:
+                - /url: https://x.com/Kuja_Platform
+                - img [ref=e313]
+              - link [ref=e314] [cursor=pointer]:
+                - /url: https://www.youtube.com/@Kuja_Platform
+                - img [ref=e315]
+              - link [ref=e316] [cursor=pointer]:
+                - /url: https://wa.me/254708091854
+                - img [ref=e317]
+        - separator [ref=e318]
+        - generic [ref=e319]: 2026 Kuja. All rights reserved.
+    - generic:
+      - dialog:
+        - generic [ref=e323]:
+          - paragraph [ref=e325]:
+            - text: We use cookies to provide you a better user experience on this website.
+            - link "Cookie Policy" [ref=e326] [cursor=pointer]:
+              - /url: /cookie-policy
+          - generic [ref=e327]:
+            - button "Only essentials" [ref=e328] [cursor=pointer]
+            - button "I agree" [ref=e329] [cursor=pointer]
+  - button "" [ref=e330] [cursor=pointer]:
+    - generic [ref=e331]: 
+  - menu [ref=e332]:
+    - textbox "Search..." [ref=e333]
+    - menuitem "Abdoul Moumoune Batinguiri Abdoul Kader" [ref=e334] [cursor=pointer]:
+      - generic [ref=e335]: Abdoul Moumoune Batinguiri Abdoul Kader
+    - menuitem "Abdul Kabba Dumbuya" [ref=e336] [cursor=pointer]:
+      - generic [ref=e337]: Abdul Kabba Dumbuya
+    - menuitem "Abdul KARIM SSENSAMBA" [ref=e338] [cursor=pointer]:
+      - generic [ref=e339]: Abdul KARIM SSENSAMBA
+    - menuitem "Abdul M." [ref=e340] [cursor=pointer]:
+      - generic [ref=e341]: Abdul M.
+    - menuitem "ABIBATU BANGURIA" [ref=e342] [cursor=pointer]:
+      - generic [ref=e343]: ABIBATU BANGURIA
+    - menuitem "Abraham Anun" [ref=e344] [cursor=pointer]:
+      - generic [ref=e345]: Abraham Anun
+    - menuitem "ACTION FOR RELIEF AND DEVELOPMENT AID" [ref=e346] [cursor=pointer]:
+      - generic [ref=e347]: ACTION FOR RELIEF AND DEVELOPMENT AID
+    - menuitem "ADDC ONG" [ref=e348] [cursor=pointer]:
+      - generic [ref=e349]: ADDC ONG
+    - menuitem "AFD ACTION FEMMES ET DÉVELOPPEMENT" [ref=e350] [cursor=pointer]:
+      - generic [ref=e351]: AFD ACTION FEMMES ET DÉVELOPPEMENT
+    - menuitem "AFPDE" [ref=e352] [cursor=pointer]:
+      - generic [ref=e353]: AFPDE
+    - menuitem "AGNA" [ref=e354] [cursor=pointer]:
+      - generic [ref=e355]: AGNA
+    - menuitem "AGNA- Civicus" [ref=e356] [cursor=pointer]:
+      - generic [ref=e357]: AGNA- Civicus
+    - menuitem "AIM-HIGHER YOUTH COOPERATIVE" [ref=e358] [cursor=pointer]:
+      - generic [ref=e359]: AIM-HIGHER YOUTH COOPERATIVE
+    - menuitem "APDFE" [ref=e360] [cursor=pointer]:
+      - generic [ref=e361]: APDFE
+    - menuitem "Cyrus Waithaka" [ref=e362] [cursor=pointer]:
+      - generic [ref=e363]: Cyrus Waithaka
+```
