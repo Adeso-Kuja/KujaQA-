@@ -1,0 +1,409 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to Content" [ref=e3] [cursor=pointer]:
+      - /url: "#wrap"
+    - banner [ref=e4]:
+      - navigation "Main" [ref=e5]:
+        - generic [ref=e6]:
+          - link "Logo of Kuja Staging" [ref=e7] [cursor=pointer]:
+            - /url: /
+            - img "Logo of Kuja Staging" [ref=e8]:
+              - img "Kuja Staging" [ref=e9]
+          - menu [ref=e10]:
+            - listitem [ref=e11]:
+              - link "My Profile" [ref=e12] [cursor=pointer]:
+                - /url: /org_profile
+            - listitem [ref=e13]:
+              - link "Userfeed" [ref=e14] [cursor=pointer]:
+                - /url: /my/feed
+            - menuitem "Kujalink" [ref=e15] [cursor=pointer]
+          - list [ref=e16]:
+            - text: 
+            - menu [ref=e17]:
+              - link "Notifications" [ref=e18] [cursor=pointer]:
+                - /url: /notifications
+                - img "Notifications" [ref=e19]
+              - menu [ref=e20]:
+                - generic [ref=e23]:
+                  - img "Messages" [ref=e24]
+                  - generic [ref=e25]: "1"
+            - listitem [ref=e26]:
+              - button "English (US)" [expanded] [ref=e28] [cursor=pointer]
+            - listitem [ref=e29]:
+              - button "walter test cso2" [ref=e30] [cursor=pointer]
+              - text:     
+      - text: 
+    - main [ref=e31]:
+      - generic [ref=e34]:
+        - generic [ref=e37]:
+          - heading "Forums" [level=2] [ref=e38]
+          - paragraph [ref=e41]: Kuja forums offer a platform to connect and discuss topics that matter to you. Forums can be public and open to all to participate or you can create private spaces for your own network or partnerships.
+        - generic [ref=e44]:
+          - search [ref=e46]:
+            - searchbox "Search Forums..." [ref=e47]
+            - button "Search" [ref=e48] [cursor=pointer]:
+              - generic [ref=e49]: 
+          - generic: 
+        - generic [ref=e51]:
+          - generic [ref=e53]:
+            - generic [ref=e55]:
+              - generic [ref=e57] [cursor=pointer]:
+                - img [ref=e58]
+                - generic [ref=e59]: All Forums
+                - img [ref=e60]
+              - generic [ref=e64] [cursor=pointer]:
+                - img [ref=e65]
+                - generic [ref=e66]: My Forums
+              - generic [ref=e69] [cursor=pointer]:
+                - img [ref=e70]
+                - generic [ref=e71]: Forums I've joined
+            - button "Filter by Focus Areas " [ref=e75] [cursor=pointer]:
+              - generic [ref=e76]: Filter by Focus Areas
+              - generic [ref=e78]: 
+            - button "Filter By Main Language " [ref=e82] [cursor=pointer]:
+              - generic [ref=e83]: Filter By Main Language
+              - generic [ref=e85]: 
+            - button "Create a forum" [ref=e87] [cursor=pointer]:
+              - img [ref=e88]
+              - generic [ref=e89]: Create a forum
+          - generic [ref=e90]:
+            - generic [ref=e92] [cursor=pointer]:
+              - generic [ref=e93]: "Sort by:"
+              - combobox "Sort by:" [ref=e94]:
+                - option "Newest to Oldest"
+                - option "Oldest to Newest"
+                - option "Most popular (most clicks)" [selected]
+                - option "A-Z"
+            - generic [ref=e95]:
+              - generic [ref=e96]:
+                - generic [ref=e98]:
+                  - generic [ref=e99]:
+                    - img "Forum image" [ref=e100]
+                    - button "Join" [ref=e103] [cursor=pointer]
+                  - generic [ref=e104]:
+                    - heading "this is s test forum in english" [level=5] [ref=e105]
+                    - heading "Recent activity 4 months ago" [level=6] [ref=e106]:
+                      - generic [ref=e107]: Recent activity 4 months ago
+                    - generic [ref=e108]: this is s atest forum in English
+                    - generic [ref=e109]:
+                      - generic [ref=e110]: "By:"
+                      - generic "Marial Lugare" [ref=e111]
+                - generic [ref=e113]:
+                  - generic [ref=e114]:
+                    - img "Forum image" [ref=e115]
+                    - button "Join" [ref=e118] [cursor=pointer]
+                  - generic [ref=e119]:
+                    - heading "Community Voices Kenya – CBO Forum" [level=5] [ref=e120]
+                    - heading "Recent activity 5 months ago" [level=6] [ref=e121]:
+                      - generic [ref=e122]: Recent activity 5 months ago
+                    - generic [ref=e123]:
+                      - text: Kenya CBOs Connect Forum is a national platform bringing together Community-Based Organizations (CBOs) working in diverse sectors including youth empowerment, women empowerment, health, environment, education, governance, and livelihoods.
+                      - text: The forum provides a safe and inclusive space for CBO leaders, staff, volunteers, and partners to exchange ideas, share best practices, access funding and training opportunities, and strengthen grassroots impact.
+                      - text: Our goal is to amplify community voices, build strong partnerships, and promote sustainable development at the grassroots level across Kenya.
+                    - generic [ref=e124]:
+                      - generic "Community Development" [ref=e125]
+                      - generic "Diversity, Equity and Inclusion" [ref=e126]
+                      - generic "survivor-led community-based response (sclr)" [ref=e127]
+                    - generic [ref=e128]:
+                      - generic [ref=e129]: "By:"
+                      - generic "Anil Lugare" [ref=e130]
+                - generic [ref=e132]:
+                  - generic [ref=e133]:
+                    - img "Forum image" [ref=e134]
+                    - button "Join" [ref=e137] [cursor=pointer]
+                  - generic [ref=e138]:
+                    - heading "test all forums" [level=5] [ref=e139]
+                    - heading "Recent activity 1 month ago" [level=6] [ref=e140]:
+                      - generic [ref=e141]: Recent activity 1 month ago
+                    - generic [ref=e142]: test description of forums
+                    - generic [ref=e143]:
+                      - generic "Animal Experimentation" [ref=e144]
+                      - generic "Games" [ref=e145]
+                    - generic [ref=e146]:
+                      - generic [ref=e147]: "By:"
+                      - generic "Walter Cso1" [ref=e148]
+                - generic [ref=e150]:
+                  - generic [ref=e151]:
+                    - img "Forum image" [ref=e152]
+                    - button "Join" [ref=e155] [cursor=pointer]
+                  - generic [ref=e156]:
+                    - heading "standalone forum" [level=5] [ref=e157]
+                    - heading "Recent activity 2 months ago" [level=6] [ref=e158]:
+                      - generic [ref=e159]: Recent activity 2 months ago
+                    - generic [ref=e160]: test description of sub forum
+                    - generic [ref=e161]:
+                      - generic [ref=e162]: "By:"
+                      - generic "Walter Cso1" [ref=e163]
+                - generic [ref=e165]:
+                  - generic [ref=e166]:
+                    - img "Forum image" [ref=e167]
+                    - button "Join" [ref=e170] [cursor=pointer]
+                  - generic [ref=e171]:
+                    - heading "my forum2" [level=5] [ref=e172]
+                    - heading "Recent activity 2 months ago" [level=6] [ref=e173]:
+                      - generic [ref=e174]: Recent activity 2 months ago
+                    - generic [ref=e175]: test forum2
+                    - generic [ref=e176]: Translate
+                    - generic [ref=e177]:
+                      - generic "Animal Welfare" [ref=e178]
+                      - generic "Culture" [ref=e179]
+                      - generic "Games" [ref=e180]
+                    - generic [ref=e181]:
+                      - generic [ref=e182]: "By:"
+                      - generic "Walter Cso1" [ref=e183]
+                - generic [ref=e185]:
+                  - generic [ref=e186]:
+                    - img "Forum image" [ref=e187]
+                    - button "Join" [ref=e190] [cursor=pointer]
+                  - generic [ref=e191]:
+                    - heading "Préparatifs pour le lancement de Kuja" [level=5] [ref=e192]
+                    - heading "Recent activity 4 months ago" [level=6] [ref=e193]:
+                      - generic [ref=e194]: Recent activity 4 months ago
+                    - generic [ref=e195]:
+                      - text: Préparatifs pour le lancement de Kuja
+                      - text: Préparatifs pour le lancement de Kuja
+                      - text: Préparatifs pour le lancement de Kuja
+                      - text: Préparatifs pour le lancement de Kuja
+                    - generic [ref=e197]: Translate
+                    - generic [ref=e198]:
+                      - generic [ref=e199]: "By:"
+                      - generic "Cyrus Waithaka" [ref=e200]
+                - generic [ref=e202]:
+                  - generic [ref=e203]:
+                    - img "Forum image" [ref=e204]
+                    - button "Join" [ref=e207] [cursor=pointer]
+                  - generic [ref=e208]:
+                    - heading "Walter test 3/8/26" [level=5] [ref=e209]
+                    - heading "Recent activity 2 months ago" [level=6] [ref=e210]:
+                      - generic [ref=e211]: Recent activity 2 months ago
+                    - generic [ref=e212]: well described
+                    - generic [ref=e213]: Translate
+                    - generic "Animal Rights" [ref=e215]
+                    - generic [ref=e216]:
+                      - generic [ref=e217]: "By:"
+                      - generic "Walter Odhiambo cso" [ref=e218]
+                - generic [ref=e220]:
+                  - generic [ref=e221]:
+                    - img "Forum image" [ref=e222]
+                    - button "Join" [ref=e225] [cursor=pointer]
+                  - generic [ref=e226]:
+                    - heading "Test translation on forums" [level=5] [ref=e227]
+                    - heading "Recent activity 4 months ago" [level=6] [ref=e228]:
+                      - generic [ref=e229]: Recent activity 4 months ago
+                    - generic [ref=e230]: This is a test description that checks if french translations apply on the cards
+                    - generic "Urban Refugees" [ref=e232]
+                    - generic [ref=e233]:
+                      - generic [ref=e234]: "By:"
+                      - generic "Marial Lugare" [ref=e235]
+                - generic [ref=e237]:
+                  - generic [ref=e238]:
+                    - img "Forum image" [ref=e239]
+                    - generic [ref=e241]:
+                      - button "Join" [ref=e242] [cursor=pointer]
+                      - button " Private" [ref=e243] [cursor=pointer]:
+                        - generic [ref=e244]: 
+                        - generic [ref=e245]: Private
+                  - generic [ref=e246]:
+                    - heading "Test private forumms from profiles" [level=5] [ref=e247]
+                    - heading "Recent activity 2 months ago" [level=6] [ref=e248]:
+                      - generic [ref=e249]: Recent activity 2 months ago
+                    - generic [ref=e250]: The key is balancing thorough testing with the understanding that third-party APIs are outside your control. Focus on how your application behaves when the API works, fails, or behaves unexpectedly.
+                    - generic [ref=e251]:
+                      - generic "Child Development" [ref=e252]
+                      - generic "Humanities" [ref=e253]
+                      - generic "Storytelling" [ref=e254]
+                    - generic [ref=e255]:
+                      - generic [ref=e256]: "By:"
+                      - generic "Marie network" [ref=e257]
+                - generic [ref=e259]:
+                  - generic [ref=e260]:
+                    - img "Forum image" [ref=e261]
+                    - button "Join" [ref=e264] [cursor=pointer]
+                  - generic [ref=e265]:
+                    - heading "Staging servers test" [level=5] [ref=e266]
+                    - heading "Recent activity 2 months ago" [level=6] [ref=e267]:
+                      - generic [ref=e268]: Recent activity 2 months ago
+                    - generic [ref=e269]: The mission of Marie Networks is to provide reliable, innovative, and secure networking solutions that connect people, businesses, and communities. The organization aims to improve communication and collaboration by using modern technology to create efficient digital connections. Marie Networks is committed to delivering high-quality services that help individuals and organizations share information, grow, and succeed in a connected world.
+                    - generic "Animal Rights" [ref=e271]
+                    - generic [ref=e272]:
+                      - generic [ref=e273]: "By:"
+                      - generic "Marie network" [ref=e274]
+                - generic [ref=e276]:
+                  - generic [ref=e277]:
+                    - img "Forum image" [ref=e278]
+                    - button "Join" [ref=e281] [cursor=pointer]
+                  - generic [ref=e282]:
+                    - heading "test languare last time" [level=5] [ref=e283]
+                    - heading "Recent activity 4 months ago" [level=6] [ref=e284]:
+                      - generic [ref=e285]: Recent activity 4 months ago
+                    - generic [ref=e286]: This is a bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+                    - generic [ref=e287]: Translate
+                    - generic "Animal Welfare" [ref=e289]
+                    - generic [ref=e290]:
+                      - generic [ref=e291]: "By:"
+                      - generic "Marial Lugare" [ref=e292]
+                - generic [ref=e294]:
+                  - generic [ref=e295]:
+                    - img "Forum image" [ref=e296]
+                    - button "Join" [ref=e299] [cursor=pointer]
+                  - generic [ref=e300]:
+                    - heading "walter forum" [level=5] [ref=e301]
+                    - heading "Recent activity 1 month ago" [level=6] [ref=e302]:
+                      - generic [ref=e303]: Recent activity 1 month ago
+                    - generic [ref=e304]: test forum
+                    - generic "Church" [ref=e306]
+                    - generic [ref=e307]:
+                      - generic [ref=e308]: "By:"
+                      - generic "Walter INGO1" [ref=e309]
+              - list [ref=e311]:
+                - listitem [ref=e312]:
+                  - generic:
+                    - img "Previous": 
+                - listitem [ref=e313]:
+                  - generic [ref=e314] [cursor=pointer]: "1"
+                - listitem [ref=e315]:
+                  - generic [ref=e316] [cursor=pointer]: "2"
+                - listitem [ref=e317]:
+                  - generic [ref=e318] [cursor=pointer]: "3"
+                - listitem [ref=e319]:
+                  - img "Next" [ref=e321] [cursor=pointer]: 
+    - contentinfo [ref=e322]:
+      - generic [ref=e328]:
+        - generic [ref=e329]:
+          - generic [ref=e330]:
+            - img "Kuja Logo" [ref=e331]
+            - generic [ref=e332]:
+              - link "Website" [ref=e333] [cursor=pointer]:
+                - /url: /
+              - link "Grants" [ref=e334] [cursor=pointer]:
+                - /url: /grants
+              - link "Events" [ref=e335] [cursor=pointer]:
+                - /url: /events
+              - link "Blogs" [ref=e336] [cursor=pointer]:
+                - /url: /blog
+              - link "Courses" [ref=e337] [cursor=pointer]:
+                - /url: /slides/all
+              - link "Forums" [ref=e338] [cursor=pointer]:
+                - /url: /communities
+              - link "About" [ref=e339] [cursor=pointer]:
+                - /url: /about-us
+              - link "Privacy Policy" [ref=e340] [cursor=pointer]:
+                - /url: /privacy
+              - link "Code of Conduct" [ref=e341] [cursor=pointer]:
+                - /url: /conduct
+          - generic [ref=e342]:
+            - paragraph [ref=e343]: We love feedback! Reach out to us on WhatsApp
+            - generic [ref=e344]:
+              - generic [ref=e345]: "+254708091854"
+              - link [ref=e346] [cursor=pointer]:
+                - /url: https://wa.me/254708091854
+                - img [ref=e347]
+            - paragraph [ref=e348]: Follow us on socials
+            - generic [ref=e349]:
+              - link [ref=e350] [cursor=pointer]:
+                - /url: https://www.facebook.com/share/1DsKQ5WoDq/
+                - img [ref=e351]
+              - link [ref=e352] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/kuja-platform/
+                - img [ref=e353]
+              - link [ref=e354] [cursor=pointer]:
+                - /url: https://x.com/Kuja_Platform
+                - img [ref=e355]
+              - link [ref=e356] [cursor=pointer]:
+                - /url: https://www.youtube.com/@Kuja_Platform
+                - img [ref=e357]
+              - link [ref=e358] [cursor=pointer]:
+                - /url: https://wa.me/254708091854
+                - img [ref=e359]
+        - separator [ref=e360]
+        - generic [ref=e361]: 2026 Kuja. All rights reserved.
+    - generic:
+      - dialog:
+        - generic [ref=e365]:
+          - paragraph [ref=e367]:
+            - text: We use cookies to provide you a better user experience on this website.
+            - link "Cookie Policy" [ref=e368] [cursor=pointer]:
+              - /url: /cookie-policy
+          - generic [ref=e369]:
+            - button "Only essentials" [ref=e370] [cursor=pointer]
+            - button "I agree" [ref=e371] [cursor=pointer]
+  - button "" [ref=e372] [cursor=pointer]:
+    - generic [ref=e373]: 
+  - dialog [ref=e374]:
+    - generic [ref=e375]:
+      - banner [ref=e376]:
+        - heading "Create a forum" [level=4] [ref=e377]
+        - button "Close" [ref=e378] [cursor=pointer]
+      - main [ref=e379]:
+        - generic [ref=e382]:
+          - generic [ref=e383]:
+            - generic [ref=e384]: Forum Title
+            - textbox "Forum Title Main Language" [ref=e385]: Automated test forum
+            - generic [ref=e386]: 20 / 60
+            - generic [ref=e387]: Forum Title must be unique
+          - generic [ref=e388]:
+            - generic [ref=e389]: Description
+            - generic [ref=e390]:
+              - textbox [ref=e391]: test forum in automated way
+              - generic [ref=e392]: 27 / 2000
+          - generic [ref=e393]:
+            - generic [ref=e394]: Image
+            - generic [ref=e395] [cursor=pointer]:
+              - generic [ref=e396]: Choose file
+              - generic [ref=e397]: No file chosen
+          - generic [ref=e398]:
+            - generic [ref=e399]: Privacy
+            - generic [ref=e400]:
+              - generic [ref=e402]:
+                - radio "Public" [ref=e403] [cursor=pointer]
+                - generic [ref=e404] [cursor=pointer]: Public
+                - generic [ref=e405]: Anyone can join the forum.
+              - generic [ref=e407]:
+                - radio "Private" [checked] [ref=e408] [cursor=pointer]
+                - generic [ref=e409] [cursor=pointer]: Private
+                - generic [ref=e410]: New members need to be approved by the admin.
+          - generic [ref=e411]:
+            - generic [ref=e412]: Engagement
+            - generic [ref=e413]:
+              - generic [ref=e415]:
+                - radio "Everyone" [checked] [ref=e416] [cursor=pointer]
+                - generic [ref=e417] [cursor=pointer]: Everyone
+                - generic [ref=e418]: All members can post a topic.
+              - generic [ref=e420]:
+                - radio "Admin only" [ref=e421] [cursor=pointer]
+                - generic [ref=e422] [cursor=pointer]: Admin only
+                - generic [ref=e423]: Only the admin can post a topic.
+          - generic [ref=e424]:
+            - generic [ref=e425]: Main Language
+            - button "English (US)  " [ref=e428] [cursor=pointer]:
+              - generic [ref=e429]: English (US)
+              - generic [ref=e431]: 
+              - generic [ref=e433]: 
+          - generic [ref=e434]:
+            - generic [ref=e435]: Focus Areas
+            - text: Optional
+            - button "Animal Rights Delete " [ref=e437] [cursor=pointer]:
+              - generic "Animal Rights" [ref=e439]:
+                - generic [ref=e440]: Animal Rights
+                - link "Delete" [ref=e441]:
+                  - /url: "#"
+                  - generic [ref=e442]: 
+              - generic [ref=e444]: 
+          - generic [ref=e445]:
+            - paragraph [ref=e446]: Does this forum have sub-forums?
+            - paragraph [ref=e447]: Sub-forums let you divide the main forum into smaller, focused categories for easier discussions
+            - generic [ref=e448]:
+              - generic [ref=e450]:
+                - radio "Yes, allow sub-forums" [ref=e451] [cursor=pointer]
+                - generic [ref=e452] [cursor=pointer]: Yes, allow sub-forums
+              - generic [ref=e454]:
+                - radio "No, this will be a standalone forum" [checked] [ref=e455] [cursor=pointer]
+                - generic [ref=e456] [cursor=pointer]: No, this will be a standalone forum
+      - contentinfo [ref=e457]:
+        - generic [ref=e458]:
+          - text: Cancel
+          - button "Save" [active] [ref=e459] [cursor=pointer]
+```
